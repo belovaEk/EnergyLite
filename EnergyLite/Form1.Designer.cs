@@ -1,7 +1,7 @@
 ﻿
 namespace EnergyLite
 {
-    partial class FormMain
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -29,33 +29,72 @@ namespace EnergyLite
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            this.panelFormula = new System.Windows.Forms.Panel();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.panelInput = new System.Windows.Forms.Panel();
+            this.textBoxInput = new System.Windows.Forms.TextBox();
             this.panelQuestion = new System.Windows.Forms.Panel();
             this.comboBoxChange = new System.Windows.Forms.ComboBox();
             this.textBoxQuestion = new System.Windows.Forms.TextBox();
-            this.panelInput = new System.Windows.Forms.Panel();
-            this.textBoxInput = new System.Windows.Forms.TextBox();
             this.panelResult = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.panelFormula = new System.Windows.Forms.Panel();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.panelQuestion.SuspendLayout();
-            this.panelInput.SuspendLayout();
-            this.panelResult.SuspendLayout();
             this.panelFormula.SuspendLayout();
+            this.panelInput.SuspendLayout();
+            this.panelQuestion.SuspendLayout();
+            this.panelResult.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // panelFormula
+            // 
+            this.panelFormula.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(58)))), ((int)(((byte)(90)))));
+            this.panelFormula.Controls.Add(this.textBox2);
+            this.panelFormula.Location = new System.Drawing.Point(785, 448);
+            this.panelFormula.Name = "panelFormula";
+            this.panelFormula.Size = new System.Drawing.Size(475, 319);
+            this.panelFormula.TabIndex = 7;
+            // 
+            // textBox2
+            // 
+            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(58)))), ((int)(((byte)(90)))));
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox2.Location = new System.Drawing.Point(26, 26);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(323, 29);
+            this.textBox2.TabIndex = 2;
+            this.textBox2.Text = "Используемые формулы:";
+            // 
+            // panelInput
+            // 
+            this.panelInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(111)))), ((int)(((byte)(142)))));
+            this.panelInput.Controls.Add(this.textBoxInput);
+            this.panelInput.Location = new System.Drawing.Point(25, 176);
+            this.panelInput.Name = "panelInput";
+            this.panelInput.Size = new System.Drawing.Size(737, 591);
+            this.panelInput.TabIndex = 5;
+            // 
+            // textBoxInput
+            // 
+            this.textBoxInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(111)))), ((int)(((byte)(142)))));
+            this.textBoxInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBoxInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxInput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBoxInput.Location = new System.Drawing.Point(18, 165);
+            this.textBoxInput.Name = "textBoxInput";
+            this.textBoxInput.Size = new System.Drawing.Size(700, 29);
+            this.textBoxInput.TabIndex = 0;
+            this.textBoxInput.Text = "Ввод параметров:";
             // 
             // panelQuestion
             // 
-            this.panelQuestion.Controls.Add(this.button1);
             this.panelQuestion.Controls.Add(this.comboBoxChange);
             this.panelQuestion.Controls.Add(this.textBoxQuestion);
             this.panelQuestion.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelQuestion.Location = new System.Drawing.Point(0, 0);
             this.panelQuestion.Name = "panelQuestion";
             this.panelQuestion.Size = new System.Drawing.Size(1282, 138);
-            this.panelQuestion.TabIndex = 0;
+            this.panelQuestion.TabIndex = 4;
             // 
             // comboBoxChange
             // 
@@ -83,37 +122,15 @@ namespace EnergyLite
             this.textBoxQuestion.TabIndex = 0;
             this.textBoxQuestion.Text = "Для чего производится расчёт?";
             this.textBoxQuestion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBoxQuestion.Enter += new System.EventHandler(this.textBoxQuestion_Enter);
-            // 
-            // panelInput
-            // 
-            this.panelInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(111)))), ((int)(((byte)(142)))));
-            this.panelInput.Controls.Add(this.textBoxInput);
-            this.panelInput.Location = new System.Drawing.Point(25, 163);
-            this.panelInput.Name = "panelInput";
-            this.panelInput.Size = new System.Drawing.Size(737, 591);
-            this.panelInput.TabIndex = 1;
-            // 
-            // textBoxInput
-            // 
-            this.textBoxInput.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(112)))), ((int)(((byte)(111)))), ((int)(((byte)(142)))));
-            this.textBoxInput.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxInput.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBoxInput.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBoxInput.Location = new System.Drawing.Point(18, 22);
-            this.textBoxInput.Name = "textBoxInput";
-            this.textBoxInput.Size = new System.Drawing.Size(700, 29);
-            this.textBoxInput.TabIndex = 0;
-            this.textBoxInput.Text = "Ввод параметров:";
             // 
             // panelResult
             // 
             this.panelResult.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(169)))), ((int)(((byte)(186)))));
             this.panelResult.Controls.Add(this.textBox1);
-            this.panelResult.Location = new System.Drawing.Point(785, 163);
+            this.panelResult.Location = new System.Drawing.Point(785, 176);
             this.panelResult.Name = "panelResult";
             this.panelResult.Size = new System.Drawing.Size(474, 238);
-            this.panelResult.TabIndex = 2;
+            this.panelResult.TabIndex = 6;
             // 
             // textBox1
             // 
@@ -127,75 +144,40 @@ namespace EnergyLite
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Рассчитанные параметры:";
             // 
-            // panelFormula
-            // 
-            this.panelFormula.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(58)))), ((int)(((byte)(90)))));
-            this.panelFormula.Controls.Add(this.textBox2);
-            this.panelFormula.Location = new System.Drawing.Point(785, 435);
-            this.panelFormula.Name = "panelFormula";
-            this.panelFormula.Size = new System.Drawing.Size(475, 319);
-            this.panelFormula.TabIndex = 3;
-            // 
-            // textBox2
-            // 
-            this.textBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(58)))), ((int)(((byte)(90)))));
-            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.textBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox2.Location = new System.Drawing.Point(26, 26);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(323, 29);
-            this.textBox2.TabIndex = 2;
-            this.textBox2.Text = "Используемые формулы:";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(962, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(124, 38);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // FormMain
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
             this.ClientSize = new System.Drawing.Size(1282, 780);
             this.Controls.Add(this.panelFormula);
-            this.Controls.Add(this.panelResult);
             this.Controls.Add(this.panelInput);
             this.Controls.Add(this.panelQuestion);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FormMain";
+            this.Controls.Add(this.panelResult);
+            this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "EnergyLite - программа для расчетов параметров нефтяных и газовых скважин";
-            this.panelQuestion.ResumeLayout(false);
-            this.panelQuestion.PerformLayout();
-            this.panelInput.ResumeLayout(false);
-            this.panelInput.PerformLayout();
-            this.panelResult.ResumeLayout(false);
-            this.panelResult.PerformLayout();
+            this.Text = "Form1";
             this.panelFormula.ResumeLayout(false);
             this.panelFormula.PerformLayout();
+            this.panelInput.ResumeLayout(false);
+            this.panelInput.PerformLayout();
+            this.panelQuestion.ResumeLayout(false);
+            this.panelQuestion.PerformLayout();
+            this.panelResult.ResumeLayout(false);
+            this.panelResult.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Panel panelQuestion;
-        private System.Windows.Forms.Panel panelInput;
-        private System.Windows.Forms.TextBox textBoxQuestion;
-        private System.Windows.Forms.ComboBox comboBoxChange;
-        private System.Windows.Forms.Panel panelResult;
         private System.Windows.Forms.Panel panelFormula;
-        private System.Windows.Forms.TextBox textBoxInput;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Panel panelInput;
+        private System.Windows.Forms.TextBox textBoxInput;
+        private System.Windows.Forms.Panel panelQuestion;
+        private System.Windows.Forms.ComboBox comboBoxChange;
+        private System.Windows.Forms.TextBox textBoxQuestion;
+        private System.Windows.Forms.Panel panelResult;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
-

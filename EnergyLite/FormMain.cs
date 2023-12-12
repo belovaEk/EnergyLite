@@ -22,6 +22,11 @@ namespace EnergyLite
             (sender as TextBox).SelectionStart = 0;
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 nf = new Form1();
+            nf.Show();
+        }
     }
 }
