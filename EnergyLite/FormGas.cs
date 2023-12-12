@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EnergyLite
 {
-    public partial class Form1 : Form
+    public partial class FormGas : Form
     {
-        public Form1()
+        public FormGas()
         {
             InitializeComponent();
         }

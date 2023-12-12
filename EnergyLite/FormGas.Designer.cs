@@ -1,7 +1,7 @@
 ﻿
 namespace EnergyLite
 {
-    partial class Form1
+    partial class FormGas
     {
         /// <summary>
         /// Required designer variable.
@@ -113,12 +113,12 @@ namespace EnergyLite
             // 
             this.textBoxQuestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
             this.textBoxQuestion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxQuestion.Font = new System.Drawing.Font("Freestyle Script", 16.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxQuestion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(46)))));
             this.textBoxQuestion.Location = new System.Drawing.Point(368, 12);
             this.textBoxQuestion.Name = "textBoxQuestion";
             this.textBoxQuestion.ReadOnly = true;
-            this.textBoxQuestion.Size = new System.Drawing.Size(506, 33);
+            this.textBoxQuestion.Size = new System.Drawing.Size(506, 32);
             this.textBoxQuestion.TabIndex = 0;
             this.textBoxQuestion.Text = "Для чего производится расчёт?";
             this.textBoxQuestion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -144,7 +144,7 @@ namespace EnergyLite
             this.textBox1.TabIndex = 1;
             this.textBox1.Text = "Рассчитанные параметры:";
             // 
-            // Form1
+            // FormGas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -153,7 +153,7 @@ namespace EnergyLite
             this.Controls.Add(this.panelInput);
             this.Controls.Add(this.panelQuestion);
             this.Controls.Add(this.panelResult);
-            this.Name = "Form1";
+            this.Name = "FormGas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.panelFormula.ResumeLayout(false);

@@ -25,7 +25,7 @@ namespace EnergyLite
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form1 nf = new Form1();
+            FormGas nf = new FormGas();
             nf.Show();
         }
     }
