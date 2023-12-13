@@ -24,9 +24,9 @@ namespace EnergyLite
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            FormGas nf = new FormGas();
-            nf.Show();
+            // groupBox2.Visible = true;
+            // groupBox1.Visible = false;
         }
+
     }
 }
