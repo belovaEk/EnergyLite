@@ -22,11 +22,53 @@ namespace EnergyLite
             (sender as TextBox).SelectionStart = 0;
         }
 
-        private void button1_Click(object sender, EventArgs e)
+
+        private void buttonGas_Click(object sender, EventArgs e)
         {
-            // groupBox2.Visible = true;
-            // groupBox1.Visible = false;
+            groupBoxGas_Debit.Visible = true;
+            groupBoxGas_Volume.Visible = true;
+
+            groupBoxNeft_Debit.Visible = false;
+            groupBoxNeft_Volume.Visible = false;
         }
 
+        private void buttonNeft_Click(object sender, EventArgs e)
+        {
+            groupBoxGas_Debit.Visible = false;
+            groupBoxGas_Volume.Visible = false;
+
+            groupBoxNeft_Debit.Visible = true;
+            groupBoxNeft_Volume.Visible = true;
+        }
+
+        private void checkBox_Debit_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox_Debit.Checked == true)
+            {
+                groupBoxNeft_Debit.Enabled = true;
+                groupBoxGas_Debit.Enabled = true;
+            }
+
+            if (checkBox_Debit.Checked == false)
+            {
+                groupBoxNeft_Debit.Enabled = false;
+                groupBoxGas_Debit.Enabled = false;
+            }
+        }
+
+        private void checkBox_Volume_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox_Volume.Checked == true)
+            {
+                groupBoxNeft_Volume.Enabled = true;
+                groupBoxGas_Volume.Enabled = true;
+            }
+
+            if (checkBox_Volume.Checked == false)
+            {
+                groupBoxNeft_Volume.Enabled = false;
+                groupBoxGas_Volume.Enabled = false;
+            }
+        }
     }
 }
