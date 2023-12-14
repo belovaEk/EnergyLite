@@ -36,49 +36,6 @@ namespace EnergyLite
             this.comboBoxChange = new System.Windows.Forms.ComboBox();
             this.textBoxQuestion = new System.Windows.Forms.TextBox();
             this.panelInput = new System.Windows.Forms.Panel();
-            this.groupBoxNeft_Debit = new System.Windows.Forms.GroupBox();
-            this.labelMpa_Debit_neft = new System.Windows.Forms.Label();
-            this.textBoxEbanayaDepressia_Neft = new System.Windows.Forms.TextBox();
-            this.label_EbanayaDepressia_Neft = new System.Windows.Forms.Label();
-            this.labelm3_Neft = new System.Windows.Forms.Label();
-            this.labelm2_Neft = new System.Windows.Forms.Label();
-            this.labelMpa_Neft = new System.Windows.Forms.Label();
-            this.labelm1_Neft = new System.Windows.Forms.Label();
-            this.labelMkm_Heft = new System.Windows.Forms.Label();
-            this.textBox_r_c_RadiusSkvagina_Neft = new System.Windows.Forms.TextBox();
-            this.label_RadiusSkvagiin_Neft = new System.Windows.Forms.Label();
-            this.textBox_R_RadiusZonDrenirovania_Neft = new System.Windows.Forms.TextBox();
-            this.textBox_b_nObKoffNefti_Debit = new System.Windows.Forms.TextBox();
-            this.textBox_μ_n_VaskostNefti = new System.Windows.Forms.TextBox();
-            this.textBox_h_EffectivNeftTolshinaPlasta = new System.Windows.Forms.TextBox();
-            this.textBox_k_kofPonicaemosti_Neft = new System.Windows.Forms.TextBox();
-            this.label_RadiusZonDrenirovania_Neft = new System.Windows.Forms.Label();
-            this.label_ObKoffNefti = new System.Windows.Forms.Label();
-            this.label_VaskostNefti = new System.Windows.Forms.Label();
-            this.label_EffectivNeftTolshinaPlasta = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBoxNeft_Volume = new System.Windows.Forms.GroupBox();
-            this.labelproc_Neft = new System.Windows.Forms.Label();
-            this.labelm4_Neft = new System.Windows.Forms.Label();
-            this.labelkg_Neft = new System.Windows.Forms.Label();
-            this.label_CenaDel_2 = new System.Windows.Forms.Label();
-            this.labelSrKoffOtkrPoristHeftPorod_2 = new System.Windows.Forms.Label();
-            this.label_ChisloLinii_3 = new System.Windows.Forms.Label();
-            this.label_ChisloLinii_2 = new System.Windows.Forms.Label();
-            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume = new System.Windows.Forms.TextBox();
-            this.textBox_p_n_PlotnostHeftiInPlasYslovia = new System.Windows.Forms.TextBox();
-            this.textBox_S_n_SrHeftPlasta = new System.Windows.Forms.TextBox();
-            this.textBox_m_SrKoffOtkrPoristHeftPorod = new System.Windows.Forms.TextBox();
-            this.textBox_h_SrednHeftTolshPlasta_Neft = new System.Windows.Forms.TextBox();
-            this.textBox_N_CenaDel = new System.Windows.Forms.TextBox();
-            this.textBox_n_F_ChisloLinii = new System.Windows.Forms.TextBox();
-            this.label_ObKoffNeftPriPlastYsl = new System.Windows.Forms.Label();
-            this.label_PlotnostHeftiInPlasYslovia = new System.Windows.Forms.Label();
-            this.label_SrHeftPlasta = new System.Windows.Forms.Label();
-            this.labelSrKoffOtkrPoristHeftPorod_1 = new System.Windows.Forms.Label();
-            this.label_SrednHeftTolshPlasta = new System.Windows.Forms.Label();
-            this.label_CenaDel_1 = new System.Windows.Forms.Label();
-            this.label_ChisloLinii_1 = new System.Windows.Forms.Label();
             this.checkBox_Volume = new System.Windows.Forms.CheckBox();
             this.checkBox_Debit = new System.Windows.Forms.CheckBox();
             this.groupBoxGas_Volume = new System.Windows.Forms.GroupBox();
@@ -86,12 +43,12 @@ namespace EnergyLite
             this.labelMpa3_Gas = new System.Windows.Forms.Label();
             this.labelm4_Gas = new System.Windows.Forms.Label();
             this.textBox_z_KofSverhSgim_Volume = new System.Windows.Forms.TextBox();
-            this.textBox_T_p_PlastovaTemp = new System.Windows.Forms.TextBox();
+            this.textBox_T_p_PlastovaTemp_Gas_Volume = new System.Windows.Forms.TextBox();
             this.textBox_P_pl_PlastovoeDavlenie_Volume = new System.Windows.Forms.TextBox();
             this.textBox_S_g_SredGasPlast = new System.Windows.Forms.TextBox();
             this.textBox_V_g_BalansZapasGas = new System.Windows.Forms.TextBox();
             this.label_KofSverhSgimRealGas_Voiume = new System.Windows.Forms.Label();
-            this.label_PlastTemp = new System.Windows.Forms.Label();
+            this.label_PlastTemp_Gas_Volume = new System.Windows.Forms.Label();
             this.label_PlastovoeDav_Volume = new System.Windows.Forms.Label();
             this.label_SrednaGasPlasta = new System.Windows.Forms.Label();
             this.label_BalansZapas_Gas = new System.Windows.Forms.Label();
@@ -137,10 +94,59 @@ namespace EnergyLite
             this.pictureBoxGasReserves = new System.Windows.Forms.PictureBox();
             this.pictureBoxGasDebit = new System.Windows.Forms.PictureBox();
             this.textBox_Formul_Heading = new System.Windows.Forms.TextBox();
+            this.labelF_SGasonostnosti_Gas_volume = new System.Windows.Forms.Label();
+            this.textBox_F_Gasonostnosti_Gas_Volume = new System.Windows.Forms.TextBox();
+            this.labelSrGasonasTolshPlasta = new System.Windows.Forms.Label();
+            this.labelSrKofOtkrPoristostiGasPorod = new System.Windows.Forms.Label();
+            this.textBox_m_Gas_Volume = new System.Windows.Forms.TextBox();
+            this.textBox_h_Gas_Volume = new System.Windows.Forms.TextBox();
+            this.labelm5_Gas = new System.Windows.Forms.Label();
+            this.labelm6_Gas = new System.Windows.Forms.Label();
+            this.groupBoxNeft_Debit = new System.Windows.Forms.GroupBox();
+            this.labelMpa_Debit_neft = new System.Windows.Forms.Label();
+            this.textBoxEbanayaDepressia_Neft = new System.Windows.Forms.TextBox();
+            this.label_EbanayaDepressia_Neft = new System.Windows.Forms.Label();
+            this.labelm3_Neft = new System.Windows.Forms.Label();
+            this.labelm2_Neft = new System.Windows.Forms.Label();
+            this.labelMpa_Neft = new System.Windows.Forms.Label();
+            this.labelm1_Neft = new System.Windows.Forms.Label();
+            this.labelMkm_Heft = new System.Windows.Forms.Label();
+            this.textBox_r_c_RadiusSkvagina_Neft = new System.Windows.Forms.TextBox();
+            this.label_RadiusSkvagiin_Neft = new System.Windows.Forms.Label();
+            this.textBox_R_RadiusZonDrenirovania_Neft = new System.Windows.Forms.TextBox();
+            this.textBox_b_nObKoffNefti_Debit = new System.Windows.Forms.TextBox();
+            this.textBox_μ_n_VaskostNefti = new System.Windows.Forms.TextBox();
+            this.textBox_h_EffectivNeftTolshinaPlasta = new System.Windows.Forms.TextBox();
+            this.textBox_k_kofPonicaemosti_Neft = new System.Windows.Forms.TextBox();
+            this.label_RadiusZonDrenirovania_Neft = new System.Windows.Forms.Label();
+            this.label_ObKoffNefti = new System.Windows.Forms.Label();
+            this.label_VaskostNefti = new System.Windows.Forms.Label();
+            this.label_EffectivNeftTolshinaPlasta = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBoxNeft_Volume = new System.Windows.Forms.GroupBox();
+            this.labelproc_Neft = new System.Windows.Forms.Label();
+            this.labelm4_Neft = new System.Windows.Forms.Label();
+            this.labelkg_Neft = new System.Windows.Forms.Label();
+            this.label_CenaDel_2 = new System.Windows.Forms.Label();
+            this.labelSrKoffOtkrPoristHeftPorod_2 = new System.Windows.Forms.Label();
+            this.label_ChisloLinii_3 = new System.Windows.Forms.Label();
+            this.label_ChisloLinii_2 = new System.Windows.Forms.Label();
+            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume = new System.Windows.Forms.TextBox();
+            this.textBox_p_n_PlotnostHeftiInPlasYslovia = new System.Windows.Forms.TextBox();
+            this.textBox_S_n_SrHeftPlasta = new System.Windows.Forms.TextBox();
+            this.textBox_m_SrKoffOtkrPoristHeftPorod = new System.Windows.Forms.TextBox();
+            this.textBox_h_SrednHeftTolshPlasta_Neft = new System.Windows.Forms.TextBox();
+            this.textBox_N_CenaDel = new System.Windows.Forms.TextBox();
+            this.textBox_n_F_ChisloLinii = new System.Windows.Forms.TextBox();
+            this.label_ObKoffNeftPriPlastYsl = new System.Windows.Forms.Label();
+            this.label_PlotnostHeftiInPlasYslovia = new System.Windows.Forms.Label();
+            this.label_SrHeftPlasta = new System.Windows.Forms.Label();
+            this.labelSrKoffOtkrPoristHeftPorod_1 = new System.Windows.Forms.Label();
+            this.label_SrednHeftTolshPlasta = new System.Windows.Forms.Label();
+            this.label_CenaDel_1 = new System.Windows.Forms.Label();
+            this.label_ChisloLinii_1 = new System.Windows.Forms.Label();
             this.panelQuestion.SuspendLayout();
             this.panelInput.SuspendLayout();
-            this.groupBoxNeft_Debit.SuspendLayout();
-            this.groupBoxNeft_Volume.SuspendLayout();
             this.groupBoxGas_Volume.SuspendLayout();
             this.groupBoxGas_Debit.SuspendLayout();
             this.panelResult.SuspendLayout();
@@ -149,6 +155,8 @@ namespace EnergyLite
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOilDebit)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGasReserves)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGasDebit)).BeginInit();
+            this.groupBoxNeft_Debit.SuspendLayout();
+            this.groupBoxNeft_Volume.SuspendLayout();
             this.SuspendLayout();
             // 
             // panelQuestion
@@ -226,449 +234,6 @@ namespace EnergyLite
             this.panelInput.Size = new System.Drawing.Size(750, 626);
             this.panelInput.TabIndex = 1;
             // 
-            // groupBoxNeft_Debit
-            // 
-            this.groupBoxNeft_Debit.Controls.Add(this.labelMpa_Debit_neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.textBoxEbanayaDepressia_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.label_EbanayaDepressia_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.labelm3_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.labelm2_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.labelMpa_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.labelm1_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.labelMkm_Heft);
-            this.groupBoxNeft_Debit.Controls.Add(this.textBox_r_c_RadiusSkvagina_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.label_RadiusSkvagiin_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.textBox_R_RadiusZonDrenirovania_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.textBox_b_nObKoffNefti_Debit);
-            this.groupBoxNeft_Debit.Controls.Add(this.textBox_μ_n_VaskostNefti);
-            this.groupBoxNeft_Debit.Controls.Add(this.textBox_h_EffectivNeftTolshinaPlasta);
-            this.groupBoxNeft_Debit.Controls.Add(this.textBox_k_kofPonicaemosti_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.label_RadiusZonDrenirovania_Neft);
-            this.groupBoxNeft_Debit.Controls.Add(this.label_ObKoffNefti);
-            this.groupBoxNeft_Debit.Controls.Add(this.label_VaskostNefti);
-            this.groupBoxNeft_Debit.Controls.Add(this.label_EffectivNeftTolshinaPlasta);
-            this.groupBoxNeft_Debit.Controls.Add(this.label1);
-            this.groupBoxNeft_Debit.Enabled = false;
-            this.groupBoxNeft_Debit.Location = new System.Drawing.Point(19, 52);
-            this.groupBoxNeft_Debit.Name = "groupBoxNeft_Debit";
-            this.groupBoxNeft_Debit.Size = new System.Drawing.Size(713, 227);
-            this.groupBoxNeft_Debit.TabIndex = 12;
-            this.groupBoxNeft_Debit.TabStop = false;
-            this.groupBoxNeft_Debit.Visible = false;
-            // 
-            // labelMpa_Debit_neft
-            // 
-            this.labelMpa_Debit_neft.AutoSize = true;
-            this.labelMpa_Debit_neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelMpa_Debit_neft.Location = new System.Drawing.Point(632, 188);
-            this.labelMpa_Debit_neft.Name = "labelMpa_Debit_neft";
-            this.labelMpa_Debit_neft.Size = new System.Drawing.Size(59, 24);
-            this.labelMpa_Debit_neft.TabIndex = 33;
-            this.labelMpa_Debit_neft.Text = ", МПа";
-            // 
-            // textBoxEbanayaDepressia_Neft
-            // 
-            this.textBoxEbanayaDepressia_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBoxEbanayaDepressia_Neft.Location = new System.Drawing.Point(549, 189);
-            this.textBoxEbanayaDepressia_Neft.Name = "textBoxEbanayaDepressia_Neft";
-            this.textBoxEbanayaDepressia_Neft.Size = new System.Drawing.Size(82, 22);
-            this.textBoxEbanayaDepressia_Neft.TabIndex = 32;
-            // 
-            // label_EbanayaDepressia_Neft
-            // 
-            this.label_EbanayaDepressia_Neft.AutoSize = true;
-            this.label_EbanayaDepressia_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_EbanayaDepressia_Neft.Location = new System.Drawing.Point(5, 191);
-            this.label_EbanayaDepressia_Neft.Name = "label_EbanayaDepressia_Neft";
-            this.label_EbanayaDepressia_Neft.Size = new System.Drawing.Size(114, 24);
-            this.label_EbanayaDepressia_Neft.TabIndex = 31;
-            this.label_EbanayaDepressia_Neft.Text = " Депрессия";
-            // 
-            // labelm3_Neft
-            // 
-            this.labelm3_Neft.AutoSize = true;
-            this.labelm3_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelm3_Neft.Location = new System.Drawing.Point(632, 161);
-            this.labelm3_Neft.Name = "labelm3_Neft";
-            this.labelm3_Neft.Size = new System.Drawing.Size(33, 24);
-            this.labelm3_Neft.TabIndex = 30;
-            this.labelm3_Neft.Text = ", м";
-            // 
-            // labelm2_Neft
-            // 
-            this.labelm2_Neft.AutoSize = true;
-            this.labelm2_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelm2_Neft.Location = new System.Drawing.Point(632, 131);
-            this.labelm2_Neft.Name = "labelm2_Neft";
-            this.labelm2_Neft.Size = new System.Drawing.Size(33, 24);
-            this.labelm2_Neft.TabIndex = 29;
-            this.labelm2_Neft.Text = ", м";
-            // 
-            // labelMpa_Neft
-            // 
-            this.labelMpa_Neft.AutoSize = true;
-            this.labelMpa_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelMpa_Neft.Location = new System.Drawing.Point(632, 77);
-            this.labelMpa_Neft.Name = "labelMpa_Neft";
-            this.labelMpa_Neft.Size = new System.Drawing.Size(73, 24);
-            this.labelMpa_Neft.TabIndex = 27;
-            this.labelMpa_Neft.Text = ", мПа*с";
-            // 
-            // labelm1_Neft
-            // 
-            this.labelm1_Neft.AutoSize = true;
-            this.labelm1_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelm1_Neft.Location = new System.Drawing.Point(632, 49);
-            this.labelm1_Neft.Name = "labelm1_Neft";
-            this.labelm1_Neft.Size = new System.Drawing.Size(33, 24);
-            this.labelm1_Neft.TabIndex = 26;
-            this.labelm1_Neft.Text = ", м";
-            // 
-            // labelMkm_Heft
-            // 
-            this.labelMkm_Heft.AutoSize = true;
-            this.labelMkm_Heft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelMkm_Heft.Location = new System.Drawing.Point(632, 21);
-            this.labelMkm_Heft.Name = "labelMkm_Heft";
-            this.labelMkm_Heft.Size = new System.Drawing.Size(65, 24);
-            this.labelMkm_Heft.TabIndex = 25;
-            this.labelMkm_Heft.Text = ", мкм2";
-            // 
-            // textBox_r_c_RadiusSkvagina_Neft
-            // 
-            this.textBox_r_c_RadiusSkvagina_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_r_c_RadiusSkvagina_Neft.Location = new System.Drawing.Point(549, 161);
-            this.textBox_r_c_RadiusSkvagina_Neft.Name = "textBox_r_c_RadiusSkvagina_Neft";
-            this.textBox_r_c_RadiusSkvagina_Neft.Size = new System.Drawing.Size(82, 22);
-            this.textBox_r_c_RadiusSkvagina_Neft.TabIndex = 24;
-            // 
-            // label_RadiusSkvagiin_Neft
-            // 
-            this.label_RadiusSkvagiin_Neft.AutoSize = true;
-            this.label_RadiusSkvagiin_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_RadiusSkvagiin_Neft.Location = new System.Drawing.Point(11, 161);
-            this.label_RadiusSkvagiin_Neft.Name = "label_RadiusSkvagiin_Neft";
-            this.label_RadiusSkvagiin_Neft.Size = new System.Drawing.Size(168, 24);
-            this.label_RadiusSkvagiin_Neft.TabIndex = 23;
-            this.label_RadiusSkvagiin_Neft.Text = "Радиус скважины";
-            // 
-            // textBox_R_RadiusZonDrenirovania_Neft
-            // 
-            this.textBox_R_RadiusZonDrenirovania_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_R_RadiusZonDrenirovania_Neft.Location = new System.Drawing.Point(549, 133);
-            this.textBox_R_RadiusZonDrenirovania_Neft.Name = "textBox_R_RadiusZonDrenirovania_Neft";
-            this.textBox_R_RadiusZonDrenirovania_Neft.Size = new System.Drawing.Size(82, 22);
-            this.textBox_R_RadiusZonDrenirovania_Neft.TabIndex = 22;
-            // 
-            // textBox_b_nObKoffNefti_Debit
-            // 
-            this.textBox_b_nObKoffNefti_Debit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_b_nObKoffNefti_Debit.Location = new System.Drawing.Point(549, 105);
-            this.textBox_b_nObKoffNefti_Debit.Name = "textBox_b_nObKoffNefti_Debit";
-            this.textBox_b_nObKoffNefti_Debit.Size = new System.Drawing.Size(82, 22);
-            this.textBox_b_nObKoffNefti_Debit.TabIndex = 21;
-            // 
-            // textBox_μ_n_VaskostNefti
-            // 
-            this.textBox_μ_n_VaskostNefti.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_μ_n_VaskostNefti.Location = new System.Drawing.Point(549, 77);
-            this.textBox_μ_n_VaskostNefti.Name = "textBox_μ_n_VaskostNefti";
-            this.textBox_μ_n_VaskostNefti.Size = new System.Drawing.Size(82, 22);
-            this.textBox_μ_n_VaskostNefti.TabIndex = 20;
-            // 
-            // textBox_h_EffectivNeftTolshinaPlasta
-            // 
-            this.textBox_h_EffectivNeftTolshinaPlasta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_h_EffectivNeftTolshinaPlasta.Location = new System.Drawing.Point(549, 49);
-            this.textBox_h_EffectivNeftTolshinaPlasta.Name = "textBox_h_EffectivNeftTolshinaPlasta";
-            this.textBox_h_EffectivNeftTolshinaPlasta.Size = new System.Drawing.Size(82, 22);
-            this.textBox_h_EffectivNeftTolshinaPlasta.TabIndex = 19;
-            // 
-            // textBox_k_kofPonicaemosti_Neft
-            // 
-            this.textBox_k_kofPonicaemosti_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_k_kofPonicaemosti_Neft.Location = new System.Drawing.Point(549, 21);
-            this.textBox_k_kofPonicaemosti_Neft.Name = "textBox_k_kofPonicaemosti_Neft";
-            this.textBox_k_kofPonicaemosti_Neft.Size = new System.Drawing.Size(82, 22);
-            this.textBox_k_kofPonicaemosti_Neft.TabIndex = 18;
-            // 
-            // label_RadiusZonDrenirovania_Neft
-            // 
-            this.label_RadiusZonDrenirovania_Neft.AutoSize = true;
-            this.label_RadiusZonDrenirovania_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_RadiusZonDrenirovania_Neft.Location = new System.Drawing.Point(10, 132);
-            this.label_RadiusZonDrenirovania_Neft.Name = "label_RadiusZonDrenirovania_Neft";
-            this.label_RadiusZonDrenirovania_Neft.Size = new System.Drawing.Size(260, 24);
-            this.label_RadiusZonDrenirovania_Neft.TabIndex = 13;
-            this.label_RadiusZonDrenirovania_Neft.Text = "Радиус зоны дренирования";
-            // 
-            // label_ObKoffNefti
-            // 
-            this.label_ObKoffNefti.AutoSize = true;
-            this.label_ObKoffNefti.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_ObKoffNefti.Location = new System.Drawing.Point(10, 104);
-            this.label_ObKoffNefti.Name = "label_ObKoffNefti";
-            this.label_ObKoffNefti.Size = new System.Drawing.Size(296, 24);
-            this.label_ObKoffNefti.TabIndex = 12;
-            this.label_ObKoffNefti.Text = "Объемный коэффициент нефти";
-            // 
-            // label_VaskostNefti
-            // 
-            this.label_VaskostNefti.AutoSize = true;
-            this.label_VaskostNefti.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_VaskostNefti.Location = new System.Drawing.Point(10, 75);
-            this.label_VaskostNefti.Name = "label_VaskostNefti";
-            this.label_VaskostNefti.Size = new System.Drawing.Size(155, 24);
-            this.label_VaskostNefti.TabIndex = 11;
-            this.label_VaskostNefti.Text = "Вязкость нефти";
-            // 
-            // label_EffectivNeftTolshinaPlasta
-            // 
-            this.label_EffectivNeftTolshinaPlasta.AutoSize = true;
-            this.label_EffectivNeftTolshinaPlasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_EffectivNeftTolshinaPlasta.Location = new System.Drawing.Point(10, 47);
-            this.label_EffectivNeftTolshinaPlasta.Name = "label_EffectivNeftTolshinaPlasta";
-            this.label_EffectivNeftTolshinaPlasta.Size = new System.Drawing.Size(453, 24);
-            this.label_EffectivNeftTolshinaPlasta.TabIndex = 10;
-            this.label_EffectivNeftTolshinaPlasta.Text = "Эффективная нефтенасыщенная толщина пласта";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(10, 18);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(283, 24);
-            this.label1.TabIndex = 9;
-            this.label1.Text = "Коэффициент проницаемости";
-            // 
-            // groupBoxNeft_Volume
-            // 
-            this.groupBoxNeft_Volume.Controls.Add(this.labelproc_Neft);
-            this.groupBoxNeft_Volume.Controls.Add(this.labelm4_Neft);
-            this.groupBoxNeft_Volume.Controls.Add(this.labelkg_Neft);
-            this.groupBoxNeft_Volume.Controls.Add(this.label_CenaDel_2);
-            this.groupBoxNeft_Volume.Controls.Add(this.labelSrKoffOtkrPoristHeftPorod_2);
-            this.groupBoxNeft_Volume.Controls.Add(this.label_ChisloLinii_3);
-            this.groupBoxNeft_Volume.Controls.Add(this.label_ChisloLinii_2);
-            this.groupBoxNeft_Volume.Controls.Add(this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume);
-            this.groupBoxNeft_Volume.Controls.Add(this.textBox_p_n_PlotnostHeftiInPlasYslovia);
-            this.groupBoxNeft_Volume.Controls.Add(this.textBox_S_n_SrHeftPlasta);
-            this.groupBoxNeft_Volume.Controls.Add(this.textBox_m_SrKoffOtkrPoristHeftPorod);
-            this.groupBoxNeft_Volume.Controls.Add(this.textBox_h_SrednHeftTolshPlasta_Neft);
-            this.groupBoxNeft_Volume.Controls.Add(this.textBox_N_CenaDel);
-            this.groupBoxNeft_Volume.Controls.Add(this.textBox_n_F_ChisloLinii);
-            this.groupBoxNeft_Volume.Controls.Add(this.label_ObKoffNeftPriPlastYsl);
-            this.groupBoxNeft_Volume.Controls.Add(this.label_PlotnostHeftiInPlasYslovia);
-            this.groupBoxNeft_Volume.Controls.Add(this.label_SrHeftPlasta);
-            this.groupBoxNeft_Volume.Controls.Add(this.labelSrKoffOtkrPoristHeftPorod_1);
-            this.groupBoxNeft_Volume.Controls.Add(this.label_SrednHeftTolshPlasta);
-            this.groupBoxNeft_Volume.Controls.Add(this.label_CenaDel_1);
-            this.groupBoxNeft_Volume.Controls.Add(this.label_ChisloLinii_1);
-            this.groupBoxNeft_Volume.Enabled = false;
-            this.groupBoxNeft_Volume.Location = new System.Drawing.Point(19, 280);
-            this.groupBoxNeft_Volume.Name = "groupBoxNeft_Volume";
-            this.groupBoxNeft_Volume.Size = new System.Drawing.Size(713, 328);
-            this.groupBoxNeft_Volume.TabIndex = 11;
-            this.groupBoxNeft_Volume.TabStop = false;
-            this.groupBoxNeft_Volume.Visible = false;
-            // 
-            // labelproc_Neft
-            // 
-            this.labelproc_Neft.AutoSize = true;
-            this.labelproc_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelproc_Neft.Location = new System.Drawing.Point(636, 227);
-            this.labelproc_Neft.Name = "labelproc_Neft";
-            this.labelproc_Neft.Size = new System.Drawing.Size(35, 24);
-            this.labelproc_Neft.TabIndex = 39;
-            this.labelproc_Neft.Text = ", %";
-            // 
-            // labelm4_Neft
-            // 
-            this.labelm4_Neft.AutoSize = true;
-            this.labelm4_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelm4_Neft.Location = new System.Drawing.Point(636, 149);
-            this.labelm4_Neft.Name = "labelm4_Neft";
-            this.labelm4_Neft.Size = new System.Drawing.Size(33, 24);
-            this.labelm4_Neft.TabIndex = 37;
-            this.labelm4_Neft.Text = ", м";
-            // 
-            // labelkg_Neft
-            // 
-            this.labelkg_Neft.AutoSize = true;
-            this.labelkg_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelkg_Neft.Location = new System.Drawing.Point(636, 259);
-            this.labelkg_Neft.Name = "labelkg_Neft";
-            this.labelkg_Neft.Size = new System.Drawing.Size(66, 24);
-            this.labelkg_Neft.TabIndex = 34;
-            this.labelkg_Neft.Text = ", кг/м3";
-            // 
-            // label_CenaDel_2
-            // 
-            this.label_CenaDel_2.AutoSize = true;
-            this.label_CenaDel_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_CenaDel_2.Location = new System.Drawing.Point(11, 117);
-            this.label_CenaDel_2.Name = "label_CenaDel_2";
-            this.label_CenaDel_2.Size = new System.Drawing.Size(277, 24);
-            this.label_CenaDel_2.TabIndex = 33;
-            this.label_CenaDel_2.Text = "масштаба подсчётного плана";
-            // 
-            // labelSrKoffOtkrPoristHeftPorod_2
-            // 
-            this.labelSrKoffOtkrPoristHeftPorod_2.AutoSize = true;
-            this.labelSrKoffOtkrPoristHeftPorod_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelSrKoffOtkrPoristHeftPorod_2.Location = new System.Drawing.Point(11, 201);
-            this.labelSrKoffOtkrPoristHeftPorod_2.Name = "labelSrKoffOtkrPoristHeftPorod_2";
-            this.labelSrKoffOtkrPoristHeftPorod_2.Size = new System.Drawing.Size(241, 24);
-            this.labelSrKoffOtkrPoristHeftPorod_2.TabIndex = 32;
-            this.labelSrKoffOtkrPoristHeftPorod_2.Text = "нефтенасыщенных пород";
-            // 
-            // label_ChisloLinii_3
-            // 
-            this.label_ChisloLinii_3.AutoSize = true;
-            this.label_ChisloLinii_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_ChisloLinii_3.Location = new System.Drawing.Point(10, 66);
-            this.label_ChisloLinii_3.Name = "label_ChisloLinii_3";
-            this.label_ChisloLinii_3.Size = new System.Drawing.Size(356, 24);
-            this.label_ChisloLinii_3.TabIndex = 31;
-            this.label_ChisloLinii_3.Text = "внутренним контуром нефтеносности";
-            // 
-            // label_ChisloLinii_2
-            // 
-            this.label_ChisloLinii_2.AutoSize = true;
-            this.label_ChisloLinii_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_ChisloLinii_2.Location = new System.Drawing.Point(10, 45);
-            this.label_ChisloLinii_2.Name = "label_ChisloLinii_2";
-            this.label_ChisloLinii_2.Size = new System.Drawing.Size(304, 24);
-            this.label_ChisloLinii_2.TabIndex = 30;
-            this.label_ChisloLinii_2.Text = "проведённой между внешним и ";
-            // 
-            // textBox_b_n_ObKoffNeftPriPlastYsl_Volume
-            // 
-            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.Location = new System.Drawing.Point(553, 290);
-            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.Name = "textBox_b_n_ObKoffNeftPriPlastYsl_Volume";
-            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.Size = new System.Drawing.Size(82, 22);
-            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.TabIndex = 29;
-            // 
-            // textBox_p_n_PlotnostHeftiInPlasYslovia
-            // 
-            this.textBox_p_n_PlotnostHeftiInPlasYslovia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_p_n_PlotnostHeftiInPlasYslovia.Location = new System.Drawing.Point(553, 258);
-            this.textBox_p_n_PlotnostHeftiInPlasYslovia.Name = "textBox_p_n_PlotnostHeftiInPlasYslovia";
-            this.textBox_p_n_PlotnostHeftiInPlasYslovia.Size = new System.Drawing.Size(82, 22);
-            this.textBox_p_n_PlotnostHeftiInPlasYslovia.TabIndex = 28;
-            // 
-            // textBox_S_n_SrHeftPlasta
-            // 
-            this.textBox_S_n_SrHeftPlasta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_S_n_SrHeftPlasta.Location = new System.Drawing.Point(553, 227);
-            this.textBox_S_n_SrHeftPlasta.Name = "textBox_S_n_SrHeftPlasta";
-            this.textBox_S_n_SrHeftPlasta.Size = new System.Drawing.Size(82, 22);
-            this.textBox_S_n_SrHeftPlasta.TabIndex = 27;
-            // 
-            // textBox_m_SrKoffOtkrPoristHeftPorod
-            // 
-            this.textBox_m_SrKoffOtkrPoristHeftPorod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_m_SrKoffOtkrPoristHeftPorod.Location = new System.Drawing.Point(553, 193);
-            this.textBox_m_SrKoffOtkrPoristHeftPorod.Name = "textBox_m_SrKoffOtkrPoristHeftPorod";
-            this.textBox_m_SrKoffOtkrPoristHeftPorod.Size = new System.Drawing.Size(82, 22);
-            this.textBox_m_SrKoffOtkrPoristHeftPorod.TabIndex = 26;
-            // 
-            // textBox_h_SrednHeftTolshPlasta_Neft
-            // 
-            this.textBox_h_SrednHeftTolshPlasta_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_h_SrednHeftTolshPlasta_Neft.Location = new System.Drawing.Point(553, 151);
-            this.textBox_h_SrednHeftTolshPlasta_Neft.Name = "textBox_h_SrednHeftTolshPlasta_Neft";
-            this.textBox_h_SrednHeftTolshPlasta_Neft.Size = new System.Drawing.Size(82, 22);
-            this.textBox_h_SrednHeftTolshPlasta_Neft.TabIndex = 25;
-            // 
-            // textBox_N_CenaDel
-            // 
-            this.textBox_N_CenaDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_N_CenaDel.Location = new System.Drawing.Point(553, 107);
-            this.textBox_N_CenaDel.Name = "textBox_N_CenaDel";
-            this.textBox_N_CenaDel.Size = new System.Drawing.Size(82, 22);
-            this.textBox_N_CenaDel.TabIndex = 24;
-            // 
-            // textBox_n_F_ChisloLinii
-            // 
-            this.textBox_n_F_ChisloLinii.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_n_F_ChisloLinii.Location = new System.Drawing.Point(553, 42);
-            this.textBox_n_F_ChisloLinii.Name = "textBox_n_F_ChisloLinii";
-            this.textBox_n_F_ChisloLinii.Size = new System.Drawing.Size(82, 22);
-            this.textBox_n_F_ChisloLinii.TabIndex = 23;
-            // 
-            // label_ObKoffNeftPriPlastYsl
-            // 
-            this.label_ObKoffNeftPriPlastYsl.AutoSize = true;
-            this.label_ObKoffNeftPriPlastYsl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_ObKoffNeftPriPlastYsl.Location = new System.Drawing.Point(10, 287);
-            this.label_ObKoffNeftPriPlastYsl.Name = "label_ObKoffNeftPriPlastYsl";
-            this.label_ObKoffNeftPriPlastYsl.Size = new System.Drawing.Size(522, 24);
-            this.label_ObKoffNeftPriPlastYsl.TabIndex = 6;
-            this.label_ObKoffNeftPriPlastYsl.Text = "Объемный коэффициент нефти при пластовых условиях";
-            // 
-            // label_PlotnostHeftiInPlasYslovia
-            // 
-            this.label_PlotnostHeftiInPlasYslovia.AutoSize = true;
-            this.label_PlotnostHeftiInPlasYslovia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_PlotnostHeftiInPlasYslovia.Location = new System.Drawing.Point(10, 260);
-            this.label_PlotnostHeftiInPlasYslovia.Name = "label_PlotnostHeftiInPlasYslovia";
-            this.label_PlotnostHeftiInPlasYslovia.Size = new System.Drawing.Size(373, 24);
-            this.label_PlotnostHeftiInPlasYslovia.TabIndex = 5;
-            this.label_PlotnostHeftiInPlasYslovia.Text = "Плотность нефти в пластовых условиях";
-            // 
-            // label_SrHeftPlasta
-            // 
-            this.label_SrHeftPlasta.AutoSize = true;
-            this.label_SrHeftPlasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_SrHeftPlasta.Location = new System.Drawing.Point(10, 228);
-            this.label_SrHeftPlasta.Name = "label_SrHeftPlasta";
-            this.label_SrHeftPlasta.Size = new System.Drawing.Size(348, 24);
-            this.label_SrHeftPlasta.TabIndex = 4;
-            this.label_SrHeftPlasta.Text = "Средняя нефтенасыщенность пласта";
-            // 
-            // labelSrKoffOtkrPoristHeftPorod_1
-            // 
-            this.labelSrKoffOtkrPoristHeftPorod_1.AutoSize = true;
-            this.labelSrKoffOtkrPoristHeftPorod_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelSrKoffOtkrPoristHeftPorod_1.Location = new System.Drawing.Point(10, 180);
-            this.labelSrKoffOtkrPoristHeftPorod_1.Name = "labelSrKoffOtkrPoristHeftPorod_1";
-            this.labelSrKoffOtkrPoristHeftPorod_1.Size = new System.Drawing.Size(420, 24);
-            this.labelSrKoffOtkrPoristHeftPorod_1.TabIndex = 3;
-            this.labelSrKoffOtkrPoristHeftPorod_1.Text = "Cредний коэффициент открытой пористости";
-            // 
-            // label_SrednHeftTolshPlasta
-            // 
-            this.label_SrednHeftTolshPlasta.AutoSize = true;
-            this.label_SrednHeftTolshPlasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_SrednHeftTolshPlasta.Location = new System.Drawing.Point(10, 147);
-            this.label_SrednHeftTolshPlasta.Name = "label_SrednHeftTolshPlasta";
-            this.label_SrednHeftTolshPlasta.Size = new System.Drawing.Size(407, 24);
-            this.label_SrednHeftTolshPlasta.TabIndex = 2;
-            this.label_SrednHeftTolshPlasta.Text = "Средняя нефтенасыщенная толщина пласта";
-            // 
-            // label_CenaDel_1
-            // 
-            this.label_CenaDel_1.AutoSize = true;
-            this.label_CenaDel_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_CenaDel_1.Location = new System.Drawing.Point(11, 95);
-            this.label_CenaDel_1.Name = "label_CenaDel_1";
-            this.label_CenaDel_1.Size = new System.Drawing.Size(332, 24);
-            this.label_CenaDel_1.TabIndex = 1;
-            this.label_CenaDel_1.Text = "Цена деления планиметра с учётом\r\n";
-            // 
-            // label_ChisloLinii_1
-            // 
-            this.label_ChisloLinii_1.AutoSize = true;
-            this.label_ChisloLinii_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_ChisloLinii_1.Location = new System.Drawing.Point(10, 23);
-            this.label_ChisloLinii_1.Name = "label_ChisloLinii_1";
-            this.label_ChisloLinii_1.Size = new System.Drawing.Size(372, 24);
-            this.label_ChisloLinii_1.TabIndex = 0;
-            this.label_ChisloLinii_1.Text = "Число деленийпланиметра вдоль линии";
-            // 
             // checkBox_Volume
             // 
             this.checkBox_Volume.AutoSize = true;
@@ -697,23 +262,31 @@ namespace EnergyLite
             // 
             // groupBoxGas_Volume
             // 
+            this.groupBoxGas_Volume.Controls.Add(this.labelm6_Gas);
+            this.groupBoxGas_Volume.Controls.Add(this.labelm5_Gas);
+            this.groupBoxGas_Volume.Controls.Add(this.textBox_m_Gas_Volume);
+            this.groupBoxGas_Volume.Controls.Add(this.textBox_h_Gas_Volume);
+            this.groupBoxGas_Volume.Controls.Add(this.labelSrKofOtkrPoristostiGasPorod);
+            this.groupBoxGas_Volume.Controls.Add(this.labelSrGasonasTolshPlasta);
+            this.groupBoxGas_Volume.Controls.Add(this.textBox_F_Gasonostnosti_Gas_Volume);
+            this.groupBoxGas_Volume.Controls.Add(this.labelF_SGasonostnosti_Gas_volume);
             this.groupBoxGas_Volume.Controls.Add(this.labelK_Gas);
             this.groupBoxGas_Volume.Controls.Add(this.labelMpa3_Gas);
             this.groupBoxGas_Volume.Controls.Add(this.labelm4_Gas);
             this.groupBoxGas_Volume.Controls.Add(this.textBox_z_KofSverhSgim_Volume);
-            this.groupBoxGas_Volume.Controls.Add(this.textBox_T_p_PlastovaTemp);
+            this.groupBoxGas_Volume.Controls.Add(this.textBox_T_p_PlastovaTemp_Gas_Volume);
             this.groupBoxGas_Volume.Controls.Add(this.textBox_P_pl_PlastovoeDavlenie_Volume);
             this.groupBoxGas_Volume.Controls.Add(this.textBox_S_g_SredGasPlast);
             this.groupBoxGas_Volume.Controls.Add(this.textBox_V_g_BalansZapasGas);
             this.groupBoxGas_Volume.Controls.Add(this.label_KofSverhSgimRealGas_Voiume);
-            this.groupBoxGas_Volume.Controls.Add(this.label_PlastTemp);
+            this.groupBoxGas_Volume.Controls.Add(this.label_PlastTemp_Gas_Volume);
             this.groupBoxGas_Volume.Controls.Add(this.label_PlastovoeDav_Volume);
             this.groupBoxGas_Volume.Controls.Add(this.label_SrednaGasPlasta);
             this.groupBoxGas_Volume.Controls.Add(this.label_BalansZapas_Gas);
             this.groupBoxGas_Volume.Enabled = false;
-            this.groupBoxGas_Volume.Location = new System.Drawing.Point(15, 412);
+            this.groupBoxGas_Volume.Location = new System.Drawing.Point(15, 367);
             this.groupBoxGas_Volume.Name = "groupBoxGas_Volume";
-            this.groupBoxGas_Volume.Size = new System.Drawing.Size(720, 181);
+            this.groupBoxGas_Volume.Size = new System.Drawing.Size(720, 246);
             this.groupBoxGas_Volume.TabIndex = 2;
             this.groupBoxGas_Volume.TabStop = false;
             this.groupBoxGas_Volume.Visible = false;
@@ -722,7 +295,7 @@ namespace EnergyLite
             // 
             this.labelK_Gas.AutoSize = true;
             this.labelK_Gas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelK_Gas.Location = new System.Drawing.Point(644, 104);
+            this.labelK_Gas.Location = new System.Drawing.Point(645, 103);
             this.labelK_Gas.Name = "labelK_Gas";
             this.labelK_Gas.Size = new System.Drawing.Size(32, 24);
             this.labelK_Gas.TabIndex = 44;
@@ -732,7 +305,7 @@ namespace EnergyLite
             // 
             this.labelMpa3_Gas.AutoSize = true;
             this.labelMpa3_Gas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelMpa3_Gas.Location = new System.Drawing.Point(644, 76);
+            this.labelMpa3_Gas.Location = new System.Drawing.Point(645, 74);
             this.labelMpa3_Gas.Name = "labelMpa3_Gas";
             this.labelMpa3_Gas.Size = new System.Drawing.Size(59, 24);
             this.labelMpa3_Gas.TabIndex = 43;
@@ -742,7 +315,7 @@ namespace EnergyLite
             // 
             this.labelm4_Gas.AutoSize = true;
             this.labelm4_Gas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.labelm4_Gas.Location = new System.Drawing.Point(644, 21);
+            this.labelm4_Gas.Location = new System.Drawing.Point(645, 19);
             this.labelm4_Gas.Name = "labelm4_Gas";
             this.labelm4_Gas.Size = new System.Drawing.Size(43, 24);
             this.labelm4_Gas.TabIndex = 41;
@@ -751,23 +324,23 @@ namespace EnergyLite
             // textBox_z_KofSverhSgim_Volume
             // 
             this.textBox_z_KofSverhSgim_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_z_KofSverhSgim_Volume.Location = new System.Drawing.Point(561, 133);
+            this.textBox_z_KofSverhSgim_Volume.Location = new System.Drawing.Point(562, 130);
             this.textBox_z_KofSverhSgim_Volume.Name = "textBox_z_KofSverhSgim_Volume";
             this.textBox_z_KofSverhSgim_Volume.Size = new System.Drawing.Size(82, 22);
             this.textBox_z_KofSverhSgim_Volume.TabIndex = 22;
             // 
-            // textBox_T_p_PlastovaTemp
+            // textBox_T_p_PlastovaTemp_Gas_Volume
             // 
-            this.textBox_T_p_PlastovaTemp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_T_p_PlastovaTemp.Location = new System.Drawing.Point(561, 105);
-            this.textBox_T_p_PlastovaTemp.Name = "textBox_T_p_PlastovaTemp";
-            this.textBox_T_p_PlastovaTemp.Size = new System.Drawing.Size(82, 22);
-            this.textBox_T_p_PlastovaTemp.TabIndex = 21;
+            this.textBox_T_p_PlastovaTemp_Gas_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_T_p_PlastovaTemp_Gas_Volume.Location = new System.Drawing.Point(562, 100);
+            this.textBox_T_p_PlastovaTemp_Gas_Volume.Name = "textBox_T_p_PlastovaTemp_Gas_Volume";
+            this.textBox_T_p_PlastovaTemp_Gas_Volume.Size = new System.Drawing.Size(82, 22);
+            this.textBox_T_p_PlastovaTemp_Gas_Volume.TabIndex = 21;
             // 
             // textBox_P_pl_PlastovoeDavlenie_Volume
             // 
             this.textBox_P_pl_PlastovoeDavlenie_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_P_pl_PlastovoeDavlenie_Volume.Location = new System.Drawing.Point(561, 77);
+            this.textBox_P_pl_PlastovoeDavlenie_Volume.Location = new System.Drawing.Point(562, 72);
             this.textBox_P_pl_PlastovoeDavlenie_Volume.Name = "textBox_P_pl_PlastovoeDavlenie_Volume";
             this.textBox_P_pl_PlastovoeDavlenie_Volume.Size = new System.Drawing.Size(82, 22);
             this.textBox_P_pl_PlastovoeDavlenie_Volume.TabIndex = 20;
@@ -775,7 +348,7 @@ namespace EnergyLite
             // textBox_S_g_SredGasPlast
             // 
             this.textBox_S_g_SredGasPlast.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_S_g_SredGasPlast.Location = new System.Drawing.Point(561, 49);
+            this.textBox_S_g_SredGasPlast.Location = new System.Drawing.Point(562, 44);
             this.textBox_S_g_SredGasPlast.Name = "textBox_S_g_SredGasPlast";
             this.textBox_S_g_SredGasPlast.Size = new System.Drawing.Size(82, 22);
             this.textBox_S_g_SredGasPlast.TabIndex = 19;
@@ -783,7 +356,7 @@ namespace EnergyLite
             // textBox_V_g_BalansZapasGas
             // 
             this.textBox_V_g_BalansZapasGas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.textBox_V_g_BalansZapasGas.Location = new System.Drawing.Point(561, 21);
+            this.textBox_V_g_BalansZapasGas.Location = new System.Drawing.Point(562, 16);
             this.textBox_V_g_BalansZapasGas.Name = "textBox_V_g_BalansZapasGas";
             this.textBox_V_g_BalansZapasGas.Size = new System.Drawing.Size(82, 22);
             this.textBox_V_g_BalansZapasGas.TabIndex = 18;
@@ -792,27 +365,27 @@ namespace EnergyLite
             // 
             this.label_KofSverhSgimRealGas_Voiume.AutoSize = true;
             this.label_KofSverhSgimRealGas_Voiume.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_KofSverhSgimRealGas_Voiume.Location = new System.Drawing.Point(10, 138);
+            this.label_KofSverhSgimRealGas_Voiume.Location = new System.Drawing.Point(10, 128);
             this.label_KofSverhSgimRealGas_Voiume.Name = "label_KofSverhSgimRealGas_Voiume";
             this.label_KofSverhSgimRealGas_Voiume.Size = new System.Drawing.Size(467, 24);
             this.label_KofSverhSgimRealGas_Voiume.TabIndex = 13;
             this.label_KofSverhSgimRealGas_Voiume.Text = "Коэффициент сверх сжимаемости реального газа";
             // 
-            // label_PlastTemp
+            // label_PlastTemp_Gas_Volume
             // 
-            this.label_PlastTemp.AutoSize = true;
-            this.label_PlastTemp.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_PlastTemp.Location = new System.Drawing.Point(10, 107);
-            this.label_PlastTemp.Name = "label_PlastTemp";
-            this.label_PlastTemp.Size = new System.Drawing.Size(227, 24);
-            this.label_PlastTemp.TabIndex = 12;
-            this.label_PlastTemp.Text = "Пластовая температура";
+            this.label_PlastTemp_Gas_Volume.AutoSize = true;
+            this.label_PlastTemp_Gas_Volume.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_PlastTemp_Gas_Volume.Location = new System.Drawing.Point(10, 99);
+            this.label_PlastTemp_Gas_Volume.Name = "label_PlastTemp_Gas_Volume";
+            this.label_PlastTemp_Gas_Volume.Size = new System.Drawing.Size(227, 24);
+            this.label_PlastTemp_Gas_Volume.TabIndex = 12;
+            this.label_PlastTemp_Gas_Volume.Text = "Пластовая температура";
             // 
             // label_PlastovoeDav_Volume
             // 
             this.label_PlastovoeDav_Volume.AutoSize = true;
             this.label_PlastovoeDav_Volume.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_PlastovoeDav_Volume.Location = new System.Drawing.Point(10, 78);
+            this.label_PlastovoeDav_Volume.Location = new System.Drawing.Point(10, 71);
             this.label_PlastovoeDav_Volume.Name = "label_PlastovoeDav_Volume";
             this.label_PlastovoeDav_Volume.Size = new System.Drawing.Size(199, 24);
             this.label_PlastovoeDav_Volume.TabIndex = 11;
@@ -822,7 +395,7 @@ namespace EnergyLite
             // 
             this.label_SrednaGasPlasta.AutoSize = true;
             this.label_SrednaGasPlasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_SrednaGasPlasta.Location = new System.Drawing.Point(10, 49);
+            this.label_SrednaGasPlasta.Location = new System.Drawing.Point(10, 44);
             this.label_SrednaGasPlasta.Name = "label_SrednaGasPlasta";
             this.label_SrednaGasPlasta.Size = new System.Drawing.Size(331, 24);
             this.label_SrednaGasPlasta.TabIndex = 10;
@@ -832,7 +405,7 @@ namespace EnergyLite
             // 
             this.label_BalansZapas_Gas.AutoSize = true;
             this.label_BalansZapas_Gas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_BalansZapas_Gas.Location = new System.Drawing.Point(10, 18);
+            this.label_BalansZapas_Gas.Location = new System.Drawing.Point(10, 17);
             this.label_BalansZapas_Gas.Name = "label_BalansZapas_Gas";
             this.label_BalansZapas_Gas.Size = new System.Drawing.Size(233, 24);
             this.label_BalansZapas_Gas.TabIndex = 9;
@@ -867,9 +440,9 @@ namespace EnergyLite
             this.groupBoxGas_Debit.Controls.Add(this.label2);
             this.groupBoxGas_Debit.Controls.Add(this.label_KofPronic);
             this.groupBoxGas_Debit.Enabled = false;
-            this.groupBoxGas_Debit.Location = new System.Drawing.Point(16, 74);
+            this.groupBoxGas_Debit.Location = new System.Drawing.Point(15, 57);
             this.groupBoxGas_Debit.Name = "groupBoxGas_Debit";
-            this.groupBoxGas_Debit.Size = new System.Drawing.Size(720, 315);
+            this.groupBoxGas_Debit.Size = new System.Drawing.Size(720, 305);
             this.groupBoxGas_Debit.TabIndex = 1;
             this.groupBoxGas_Debit.TabStop = false;
             this.groupBoxGas_Debit.Visible = false;
@@ -1030,7 +603,7 @@ namespace EnergyLite
             // 
             this.label_Depressia_Gas.AutoSize = true;
             this.label_Depressia_Gas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_Depressia_Gas.Location = new System.Drawing.Point(10, 266);
+            this.label_Depressia_Gas.Location = new System.Drawing.Point(10, 268);
             this.label_Depressia_Gas.Name = "label_Depressia_Gas";
             this.label_Depressia_Gas.Size = new System.Drawing.Size(109, 24);
             this.label_Depressia_Gas.TabIndex = 8;
@@ -1040,7 +613,7 @@ namespace EnergyLite
             // 
             this.label_PlastovoeDavlenie_Debit.AutoSize = true;
             this.label_PlastovoeDavlenie_Debit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_PlastovoeDavlenie_Debit.Location = new System.Drawing.Point(10, 235);
+            this.label_PlastovoeDavlenie_Debit.Location = new System.Drawing.Point(10, 238);
             this.label_PlastovoeDavlenie_Debit.Name = "label_PlastovoeDavlenie_Debit";
             this.label_PlastovoeDavlenie_Debit.Size = new System.Drawing.Size(199, 24);
             this.label_PlastovoeDavlenie_Debit.TabIndex = 7;
@@ -1050,7 +623,7 @@ namespace EnergyLite
             // 
             this.label_RadiusSkvagiin_Gas.AutoSize = true;
             this.label_RadiusSkvagiin_Gas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_RadiusSkvagiin_Gas.Location = new System.Drawing.Point(10, 206);
+            this.label_RadiusSkvagiin_Gas.Location = new System.Drawing.Point(10, 207);
             this.label_RadiusSkvagiin_Gas.Name = "label_RadiusSkvagiin_Gas";
             this.label_RadiusSkvagiin_Gas.Size = new System.Drawing.Size(168, 24);
             this.label_RadiusSkvagiin_Gas.TabIndex = 6;
@@ -1060,7 +633,7 @@ namespace EnergyLite
             // 
             this.label_RadiusZonaDrenirovania.AutoSize = true;
             this.label_RadiusZonaDrenirovania.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_RadiusZonaDrenirovania.Location = new System.Drawing.Point(10, 177);
+            this.label_RadiusZonaDrenirovania.Location = new System.Drawing.Point(10, 178);
             this.label_RadiusZonaDrenirovania.Name = "label_RadiusZonaDrenirovania";
             this.label_RadiusZonaDrenirovania.Size = new System.Drawing.Size(260, 24);
             this.label_RadiusZonaDrenirovania.TabIndex = 5;
@@ -1070,7 +643,7 @@ namespace EnergyLite
             // 
             this.label_KofSverhSgim.AutoSize = true;
             this.label_KofSverhSgim.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label_KofSverhSgim.Location = new System.Drawing.Point(10, 146);
+            this.label_KofSverhSgim.Location = new System.Drawing.Point(10, 147);
             this.label_KofSverhSgim.Name = "label_KofSverhSgim";
             this.label_KofSverhSgim.Size = new System.Drawing.Size(362, 24);
             this.label_KofSverhSgim.TabIndex = 4;
@@ -1293,6 +866,523 @@ namespace EnergyLite
             this.textBox_Formul_Heading.TabIndex = 2;
             this.textBox_Formul_Heading.Text = "Используемые формулы:";
             // 
+            // labelF_SGasonostnosti_Gas_volume
+            // 
+            this.labelF_SGasonostnosti_Gas_volume.AutoSize = true;
+            this.labelF_SGasonostnosti_Gas_volume.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelF_SGasonostnosti_Gas_volume.Location = new System.Drawing.Point(11, 157);
+            this.labelF_SGasonostnosti_Gas_volume.Name = "labelF_SGasonostnosti_Gas_volume";
+            this.labelF_SGasonostnosti_Gas_volume.Size = new System.Drawing.Size(219, 24);
+            this.labelF_SGasonostnosti_Gas_volume.TabIndex = 45;
+            this.labelF_SGasonostnosti_Gas_volume.Text = "Площадь газаносности";
+            // 
+            // textBox_F_Gasonostnosti_Gas_Volume
+            // 
+            this.textBox_F_Gasonostnosti_Gas_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_F_Gasonostnosti_Gas_Volume.Location = new System.Drawing.Point(562, 159);
+            this.textBox_F_Gasonostnosti_Gas_Volume.Name = "textBox_F_Gasonostnosti_Gas_Volume";
+            this.textBox_F_Gasonostnosti_Gas_Volume.Size = new System.Drawing.Size(82, 22);
+            this.textBox_F_Gasonostnosti_Gas_Volume.TabIndex = 46;
+            // 
+            // labelSrGasonasTolshPlasta
+            // 
+            this.labelSrGasonasTolshPlasta.AutoSize = true;
+            this.labelSrGasonasTolshPlasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelSrGasonasTolshPlasta.Location = new System.Drawing.Point(11, 185);
+            this.labelSrGasonasTolshPlasta.Name = "labelSrGasonasTolshPlasta";
+            this.labelSrGasonasTolshPlasta.Size = new System.Drawing.Size(390, 24);
+            this.labelSrGasonasTolshPlasta.TabIndex = 47;
+            this.labelSrGasonasTolshPlasta.Text = "Cредняя газонасыщенная толщина пласта";
+            // 
+            // labelSrKofOtkrPoristostiGasPorod
+            // 
+            this.labelSrKofOtkrPoristostiGasPorod.AutoSize = true;
+            this.labelSrKofOtkrPoristostiGasPorod.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelSrKofOtkrPoristostiGasPorod.Location = new System.Drawing.Point(10, 212);
+            this.labelSrKofOtkrPoristostiGasPorod.Name = "labelSrKofOtkrPoristostiGasPorod";
+            this.labelSrKofOtkrPoristostiGasPorod.Size = new System.Drawing.Size(528, 24);
+            this.labelSrKofOtkrPoristostiGasPorod.TabIndex = 48;
+            this.labelSrKofOtkrPoristostiGasPorod.Text = "Ср. коэфф. открытой пористости газонасыщенных пород";
+            // 
+            // textBox_m_Gas_Volume
+            // 
+            this.textBox_m_Gas_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_m_Gas_Volume.Location = new System.Drawing.Point(562, 215);
+            this.textBox_m_Gas_Volume.Name = "textBox_m_Gas_Volume";
+            this.textBox_m_Gas_Volume.Size = new System.Drawing.Size(82, 22);
+            this.textBox_m_Gas_Volume.TabIndex = 50;
+            // 
+            // textBox_h_Gas_Volume
+            // 
+            this.textBox_h_Gas_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_h_Gas_Volume.Location = new System.Drawing.Point(562, 187);
+            this.textBox_h_Gas_Volume.Name = "textBox_h_Gas_Volume";
+            this.textBox_h_Gas_Volume.Size = new System.Drawing.Size(82, 22);
+            this.textBox_h_Gas_Volume.TabIndex = 49;
+            // 
+            // labelm5_Gas
+            // 
+            this.labelm5_Gas.AutoSize = true;
+            this.labelm5_Gas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelm5_Gas.Location = new System.Drawing.Point(645, 160);
+            this.labelm5_Gas.Name = "labelm5_Gas";
+            this.labelm5_Gas.Size = new System.Drawing.Size(43, 24);
+            this.labelm5_Gas.TabIndex = 51;
+            this.labelm5_Gas.Text = ", м2";
+            // 
+            // labelm6_Gas
+            // 
+            this.labelm6_Gas.AutoSize = true;
+            this.labelm6_Gas.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelm6_Gas.Location = new System.Drawing.Point(645, 188);
+            this.labelm6_Gas.Name = "labelm6_Gas";
+            this.labelm6_Gas.Size = new System.Drawing.Size(33, 24);
+            this.labelm6_Gas.TabIndex = 52;
+            this.labelm6_Gas.Text = ", м";
+            // 
+            // groupBoxNeft_Debit
+            // 
+            this.groupBoxNeft_Debit.Controls.Add(this.labelMpa_Debit_neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.textBoxEbanayaDepressia_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.label_EbanayaDepressia_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.labelm3_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.labelm2_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.labelMpa_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.labelm1_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.labelMkm_Heft);
+            this.groupBoxNeft_Debit.Controls.Add(this.textBox_r_c_RadiusSkvagina_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.label_RadiusSkvagiin_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.textBox_R_RadiusZonDrenirovania_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.textBox_b_nObKoffNefti_Debit);
+            this.groupBoxNeft_Debit.Controls.Add(this.textBox_μ_n_VaskostNefti);
+            this.groupBoxNeft_Debit.Controls.Add(this.textBox_h_EffectivNeftTolshinaPlasta);
+            this.groupBoxNeft_Debit.Controls.Add(this.textBox_k_kofPonicaemosti_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.label_RadiusZonDrenirovania_Neft);
+            this.groupBoxNeft_Debit.Controls.Add(this.label_ObKoffNefti);
+            this.groupBoxNeft_Debit.Controls.Add(this.label_VaskostNefti);
+            this.groupBoxNeft_Debit.Controls.Add(this.label_EffectivNeftTolshinaPlasta);
+            this.groupBoxNeft_Debit.Controls.Add(this.label1);
+            this.groupBoxNeft_Debit.Enabled = false;
+            this.groupBoxNeft_Debit.Location = new System.Drawing.Point(18, 57);
+            this.groupBoxNeft_Debit.Name = "groupBoxNeft_Debit";
+            this.groupBoxNeft_Debit.Size = new System.Drawing.Size(713, 227);
+            this.groupBoxNeft_Debit.TabIndex = 70;
+            this.groupBoxNeft_Debit.TabStop = false;
+            this.groupBoxNeft_Debit.Visible = false;
+            // 
+            // labelMpa_Debit_neft
+            // 
+            this.labelMpa_Debit_neft.AutoSize = true;
+            this.labelMpa_Debit_neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMpa_Debit_neft.Location = new System.Drawing.Point(632, 188);
+            this.labelMpa_Debit_neft.Name = "labelMpa_Debit_neft";
+            this.labelMpa_Debit_neft.Size = new System.Drawing.Size(59, 24);
+            this.labelMpa_Debit_neft.TabIndex = 33;
+            this.labelMpa_Debit_neft.Text = ", МПа";
+            // 
+            // textBoxEbanayaDepressia_Neft
+            // 
+            this.textBoxEbanayaDepressia_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBoxEbanayaDepressia_Neft.Location = new System.Drawing.Point(549, 189);
+            this.textBoxEbanayaDepressia_Neft.Name = "textBoxEbanayaDepressia_Neft";
+            this.textBoxEbanayaDepressia_Neft.Size = new System.Drawing.Size(82, 22);
+            this.textBoxEbanayaDepressia_Neft.TabIndex = 32;
+            // 
+            // label_EbanayaDepressia_Neft
+            // 
+            this.label_EbanayaDepressia_Neft.AutoSize = true;
+            this.label_EbanayaDepressia_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_EbanayaDepressia_Neft.Location = new System.Drawing.Point(5, 191);
+            this.label_EbanayaDepressia_Neft.Name = "label_EbanayaDepressia_Neft";
+            this.label_EbanayaDepressia_Neft.Size = new System.Drawing.Size(114, 24);
+            this.label_EbanayaDepressia_Neft.TabIndex = 31;
+            this.label_EbanayaDepressia_Neft.Text = " Депрессия";
+            // 
+            // labelm3_Neft
+            // 
+            this.labelm3_Neft.AutoSize = true;
+            this.labelm3_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelm3_Neft.Location = new System.Drawing.Point(632, 161);
+            this.labelm3_Neft.Name = "labelm3_Neft";
+            this.labelm3_Neft.Size = new System.Drawing.Size(33, 24);
+            this.labelm3_Neft.TabIndex = 30;
+            this.labelm3_Neft.Text = ", м";
+            // 
+            // labelm2_Neft
+            // 
+            this.labelm2_Neft.AutoSize = true;
+            this.labelm2_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelm2_Neft.Location = new System.Drawing.Point(632, 131);
+            this.labelm2_Neft.Name = "labelm2_Neft";
+            this.labelm2_Neft.Size = new System.Drawing.Size(33, 24);
+            this.labelm2_Neft.TabIndex = 29;
+            this.labelm2_Neft.Text = ", м";
+            // 
+            // labelMpa_Neft
+            // 
+            this.labelMpa_Neft.AutoSize = true;
+            this.labelMpa_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMpa_Neft.Location = new System.Drawing.Point(632, 77);
+            this.labelMpa_Neft.Name = "labelMpa_Neft";
+            this.labelMpa_Neft.Size = new System.Drawing.Size(73, 24);
+            this.labelMpa_Neft.TabIndex = 27;
+            this.labelMpa_Neft.Text = ", мПа*с";
+            // 
+            // labelm1_Neft
+            // 
+            this.labelm1_Neft.AutoSize = true;
+            this.labelm1_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelm1_Neft.Location = new System.Drawing.Point(632, 49);
+            this.labelm1_Neft.Name = "labelm1_Neft";
+            this.labelm1_Neft.Size = new System.Drawing.Size(33, 24);
+            this.labelm1_Neft.TabIndex = 26;
+            this.labelm1_Neft.Text = ", м";
+            // 
+            // labelMkm_Heft
+            // 
+            this.labelMkm_Heft.AutoSize = true;
+            this.labelMkm_Heft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelMkm_Heft.Location = new System.Drawing.Point(632, 21);
+            this.labelMkm_Heft.Name = "labelMkm_Heft";
+            this.labelMkm_Heft.Size = new System.Drawing.Size(65, 24);
+            this.labelMkm_Heft.TabIndex = 25;
+            this.labelMkm_Heft.Text = ", мкм2";
+            // 
+            // textBox_r_c_RadiusSkvagina_Neft
+            // 
+            this.textBox_r_c_RadiusSkvagina_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_r_c_RadiusSkvagina_Neft.Location = new System.Drawing.Point(549, 161);
+            this.textBox_r_c_RadiusSkvagina_Neft.Name = "textBox_r_c_RadiusSkvagina_Neft";
+            this.textBox_r_c_RadiusSkvagina_Neft.Size = new System.Drawing.Size(82, 22);
+            this.textBox_r_c_RadiusSkvagina_Neft.TabIndex = 24;
+            // 
+            // label_RadiusSkvagiin_Neft
+            // 
+            this.label_RadiusSkvagiin_Neft.AutoSize = true;
+            this.label_RadiusSkvagiin_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_RadiusSkvagiin_Neft.Location = new System.Drawing.Point(11, 161);
+            this.label_RadiusSkvagiin_Neft.Name = "label_RadiusSkvagiin_Neft";
+            this.label_RadiusSkvagiin_Neft.Size = new System.Drawing.Size(168, 24);
+            this.label_RadiusSkvagiin_Neft.TabIndex = 23;
+            this.label_RadiusSkvagiin_Neft.Text = "Радиус скважины";
+            // 
+            // textBox_R_RadiusZonDrenirovania_Neft
+            // 
+            this.textBox_R_RadiusZonDrenirovania_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_R_RadiusZonDrenirovania_Neft.Location = new System.Drawing.Point(549, 133);
+            this.textBox_R_RadiusZonDrenirovania_Neft.Name = "textBox_R_RadiusZonDrenirovania_Neft";
+            this.textBox_R_RadiusZonDrenirovania_Neft.Size = new System.Drawing.Size(82, 22);
+            this.textBox_R_RadiusZonDrenirovania_Neft.TabIndex = 22;
+            // 
+            // textBox_b_nObKoffNefti_Debit
+            // 
+            this.textBox_b_nObKoffNefti_Debit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_b_nObKoffNefti_Debit.Location = new System.Drawing.Point(549, 105);
+            this.textBox_b_nObKoffNefti_Debit.Name = "textBox_b_nObKoffNefti_Debit";
+            this.textBox_b_nObKoffNefti_Debit.Size = new System.Drawing.Size(82, 22);
+            this.textBox_b_nObKoffNefti_Debit.TabIndex = 21;
+            // 
+            // textBox_μ_n_VaskostNefti
+            // 
+            this.textBox_μ_n_VaskostNefti.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_μ_n_VaskostNefti.Location = new System.Drawing.Point(549, 77);
+            this.textBox_μ_n_VaskostNefti.Name = "textBox_μ_n_VaskostNefti";
+            this.textBox_μ_n_VaskostNefti.Size = new System.Drawing.Size(82, 22);
+            this.textBox_μ_n_VaskostNefti.TabIndex = 20;
+            // 
+            // textBox_h_EffectivNeftTolshinaPlasta
+            // 
+            this.textBox_h_EffectivNeftTolshinaPlasta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_h_EffectivNeftTolshinaPlasta.Location = new System.Drawing.Point(549, 49);
+            this.textBox_h_EffectivNeftTolshinaPlasta.Name = "textBox_h_EffectivNeftTolshinaPlasta";
+            this.textBox_h_EffectivNeftTolshinaPlasta.Size = new System.Drawing.Size(82, 22);
+            this.textBox_h_EffectivNeftTolshinaPlasta.TabIndex = 19;
+            // 
+            // textBox_k_kofPonicaemosti_Neft
+            // 
+            this.textBox_k_kofPonicaemosti_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_k_kofPonicaemosti_Neft.Location = new System.Drawing.Point(549, 21);
+            this.textBox_k_kofPonicaemosti_Neft.Name = "textBox_k_kofPonicaemosti_Neft";
+            this.textBox_k_kofPonicaemosti_Neft.Size = new System.Drawing.Size(82, 22);
+            this.textBox_k_kofPonicaemosti_Neft.TabIndex = 18;
+            // 
+            // label_RadiusZonDrenirovania_Neft
+            // 
+            this.label_RadiusZonDrenirovania_Neft.AutoSize = true;
+            this.label_RadiusZonDrenirovania_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_RadiusZonDrenirovania_Neft.Location = new System.Drawing.Point(10, 132);
+            this.label_RadiusZonDrenirovania_Neft.Name = "label_RadiusZonDrenirovania_Neft";
+            this.label_RadiusZonDrenirovania_Neft.Size = new System.Drawing.Size(260, 24);
+            this.label_RadiusZonDrenirovania_Neft.TabIndex = 13;
+            this.label_RadiusZonDrenirovania_Neft.Text = "Радиус зоны дренирования";
+            // 
+            // label_ObKoffNefti
+            // 
+            this.label_ObKoffNefti.AutoSize = true;
+            this.label_ObKoffNefti.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_ObKoffNefti.Location = new System.Drawing.Point(10, 104);
+            this.label_ObKoffNefti.Name = "label_ObKoffNefti";
+            this.label_ObKoffNefti.Size = new System.Drawing.Size(296, 24);
+            this.label_ObKoffNefti.TabIndex = 12;
+            this.label_ObKoffNefti.Text = "Объемный коэффициент нефти";
+            // 
+            // label_VaskostNefti
+            // 
+            this.label_VaskostNefti.AutoSize = true;
+            this.label_VaskostNefti.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_VaskostNefti.Location = new System.Drawing.Point(10, 75);
+            this.label_VaskostNefti.Name = "label_VaskostNefti";
+            this.label_VaskostNefti.Size = new System.Drawing.Size(155, 24);
+            this.label_VaskostNefti.TabIndex = 11;
+            this.label_VaskostNefti.Text = "Вязкость нефти";
+            // 
+            // label_EffectivNeftTolshinaPlasta
+            // 
+            this.label_EffectivNeftTolshinaPlasta.AutoSize = true;
+            this.label_EffectivNeftTolshinaPlasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_EffectivNeftTolshinaPlasta.Location = new System.Drawing.Point(10, 47);
+            this.label_EffectivNeftTolshinaPlasta.Name = "label_EffectivNeftTolshinaPlasta";
+            this.label_EffectivNeftTolshinaPlasta.Size = new System.Drawing.Size(453, 24);
+            this.label_EffectivNeftTolshinaPlasta.TabIndex = 10;
+            this.label_EffectivNeftTolshinaPlasta.Text = "Эффективная нефтенасыщенная толщина пласта";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label1.Location = new System.Drawing.Point(10, 18);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(283, 24);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "Коэффициент проницаемости";
+            // 
+            // groupBoxNeft_Volume
+            // 
+            this.groupBoxNeft_Volume.Controls.Add(this.labelproc_Neft);
+            this.groupBoxNeft_Volume.Controls.Add(this.labelm4_Neft);
+            this.groupBoxNeft_Volume.Controls.Add(this.labelkg_Neft);
+            this.groupBoxNeft_Volume.Controls.Add(this.label_CenaDel_2);
+            this.groupBoxNeft_Volume.Controls.Add(this.labelSrKoffOtkrPoristHeftPorod_2);
+            this.groupBoxNeft_Volume.Controls.Add(this.label_ChisloLinii_3);
+            this.groupBoxNeft_Volume.Controls.Add(this.label_ChisloLinii_2);
+            this.groupBoxNeft_Volume.Controls.Add(this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume);
+            this.groupBoxNeft_Volume.Controls.Add(this.textBox_p_n_PlotnostHeftiInPlasYslovia);
+            this.groupBoxNeft_Volume.Controls.Add(this.textBox_S_n_SrHeftPlasta);
+            this.groupBoxNeft_Volume.Controls.Add(this.textBox_m_SrKoffOtkrPoristHeftPorod);
+            this.groupBoxNeft_Volume.Controls.Add(this.textBox_h_SrednHeftTolshPlasta_Neft);
+            this.groupBoxNeft_Volume.Controls.Add(this.textBox_N_CenaDel);
+            this.groupBoxNeft_Volume.Controls.Add(this.textBox_n_F_ChisloLinii);
+            this.groupBoxNeft_Volume.Controls.Add(this.label_ObKoffNeftPriPlastYsl);
+            this.groupBoxNeft_Volume.Controls.Add(this.label_PlotnostHeftiInPlasYslovia);
+            this.groupBoxNeft_Volume.Controls.Add(this.label_SrHeftPlasta);
+            this.groupBoxNeft_Volume.Controls.Add(this.labelSrKoffOtkrPoristHeftPorod_1);
+            this.groupBoxNeft_Volume.Controls.Add(this.label_SrednHeftTolshPlasta);
+            this.groupBoxNeft_Volume.Controls.Add(this.label_CenaDel_1);
+            this.groupBoxNeft_Volume.Controls.Add(this.label_ChisloLinii_1);
+            this.groupBoxNeft_Volume.Enabled = false;
+            this.groupBoxNeft_Volume.Location = new System.Drawing.Point(18, 290);
+            this.groupBoxNeft_Volume.Name = "groupBoxNeft_Volume";
+            this.groupBoxNeft_Volume.Size = new System.Drawing.Size(713, 328);
+            this.groupBoxNeft_Volume.TabIndex = 69;
+            this.groupBoxNeft_Volume.TabStop = false;
+            this.groupBoxNeft_Volume.Visible = false;
+            // 
+            // labelproc_Neft
+            // 
+            this.labelproc_Neft.AutoSize = true;
+            this.labelproc_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelproc_Neft.Location = new System.Drawing.Point(636, 227);
+            this.labelproc_Neft.Name = "labelproc_Neft";
+            this.labelproc_Neft.Size = new System.Drawing.Size(35, 24);
+            this.labelproc_Neft.TabIndex = 39;
+            this.labelproc_Neft.Text = ", %";
+            // 
+            // labelm4_Neft
+            // 
+            this.labelm4_Neft.AutoSize = true;
+            this.labelm4_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelm4_Neft.Location = new System.Drawing.Point(636, 149);
+            this.labelm4_Neft.Name = "labelm4_Neft";
+            this.labelm4_Neft.Size = new System.Drawing.Size(33, 24);
+            this.labelm4_Neft.TabIndex = 37;
+            this.labelm4_Neft.Text = ", м";
+            // 
+            // labelkg_Neft
+            // 
+            this.labelkg_Neft.AutoSize = true;
+            this.labelkg_Neft.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelkg_Neft.Location = new System.Drawing.Point(636, 259);
+            this.labelkg_Neft.Name = "labelkg_Neft";
+            this.labelkg_Neft.Size = new System.Drawing.Size(66, 24);
+            this.labelkg_Neft.TabIndex = 34;
+            this.labelkg_Neft.Text = ", кг/м3";
+            // 
+            // label_CenaDel_2
+            // 
+            this.label_CenaDel_2.AutoSize = true;
+            this.label_CenaDel_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_CenaDel_2.Location = new System.Drawing.Point(11, 117);
+            this.label_CenaDel_2.Name = "label_CenaDel_2";
+            this.label_CenaDel_2.Size = new System.Drawing.Size(277, 24);
+            this.label_CenaDel_2.TabIndex = 33;
+            this.label_CenaDel_2.Text = "масштаба подсчётного плана";
+            // 
+            // labelSrKoffOtkrPoristHeftPorod_2
+            // 
+            this.labelSrKoffOtkrPoristHeftPorod_2.AutoSize = true;
+            this.labelSrKoffOtkrPoristHeftPorod_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelSrKoffOtkrPoristHeftPorod_2.Location = new System.Drawing.Point(11, 201);
+            this.labelSrKoffOtkrPoristHeftPorod_2.Name = "labelSrKoffOtkrPoristHeftPorod_2";
+            this.labelSrKoffOtkrPoristHeftPorod_2.Size = new System.Drawing.Size(241, 24);
+            this.labelSrKoffOtkrPoristHeftPorod_2.TabIndex = 32;
+            this.labelSrKoffOtkrPoristHeftPorod_2.Text = "нефтенасыщенных пород";
+            // 
+            // label_ChisloLinii_3
+            // 
+            this.label_ChisloLinii_3.AutoSize = true;
+            this.label_ChisloLinii_3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_ChisloLinii_3.Location = new System.Drawing.Point(10, 66);
+            this.label_ChisloLinii_3.Name = "label_ChisloLinii_3";
+            this.label_ChisloLinii_3.Size = new System.Drawing.Size(356, 24);
+            this.label_ChisloLinii_3.TabIndex = 31;
+            this.label_ChisloLinii_3.Text = "внутренним контуром нефтеносности";
+            // 
+            // label_ChisloLinii_2
+            // 
+            this.label_ChisloLinii_2.AutoSize = true;
+            this.label_ChisloLinii_2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_ChisloLinii_2.Location = new System.Drawing.Point(10, 45);
+            this.label_ChisloLinii_2.Name = "label_ChisloLinii_2";
+            this.label_ChisloLinii_2.Size = new System.Drawing.Size(304, 24);
+            this.label_ChisloLinii_2.TabIndex = 30;
+            this.label_ChisloLinii_2.Text = "проведённой между внешним и ";
+            // 
+            // textBox_b_n_ObKoffNeftPriPlastYsl_Volume
+            // 
+            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.Location = new System.Drawing.Point(553, 290);
+            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.Name = "textBox_b_n_ObKoffNeftPriPlastYsl_Volume";
+            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.Size = new System.Drawing.Size(82, 22);
+            this.textBox_b_n_ObKoffNeftPriPlastYsl_Volume.TabIndex = 29;
+            // 
+            // textBox_p_n_PlotnostHeftiInPlasYslovia
+            // 
+            this.textBox_p_n_PlotnostHeftiInPlasYslovia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_p_n_PlotnostHeftiInPlasYslovia.Location = new System.Drawing.Point(553, 258);
+            this.textBox_p_n_PlotnostHeftiInPlasYslovia.Name = "textBox_p_n_PlotnostHeftiInPlasYslovia";
+            this.textBox_p_n_PlotnostHeftiInPlasYslovia.Size = new System.Drawing.Size(82, 22);
+            this.textBox_p_n_PlotnostHeftiInPlasYslovia.TabIndex = 28;
+            // 
+            // textBox_S_n_SrHeftPlasta
+            // 
+            this.textBox_S_n_SrHeftPlasta.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_S_n_SrHeftPlasta.Location = new System.Drawing.Point(553, 227);
+            this.textBox_S_n_SrHeftPlasta.Name = "textBox_S_n_SrHeftPlasta";
+            this.textBox_S_n_SrHeftPlasta.Size = new System.Drawing.Size(82, 22);
+            this.textBox_S_n_SrHeftPlasta.TabIndex = 27;
+            // 
+            // textBox_m_SrKoffOtkrPoristHeftPorod
+            // 
+            this.textBox_m_SrKoffOtkrPoristHeftPorod.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_m_SrKoffOtkrPoristHeftPorod.Location = new System.Drawing.Point(553, 193);
+            this.textBox_m_SrKoffOtkrPoristHeftPorod.Name = "textBox_m_SrKoffOtkrPoristHeftPorod";
+            this.textBox_m_SrKoffOtkrPoristHeftPorod.Size = new System.Drawing.Size(82, 22);
+            this.textBox_m_SrKoffOtkrPoristHeftPorod.TabIndex = 26;
+            // 
+            // textBox_h_SrednHeftTolshPlasta_Neft
+            // 
+            this.textBox_h_SrednHeftTolshPlasta_Neft.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_h_SrednHeftTolshPlasta_Neft.Location = new System.Drawing.Point(553, 151);
+            this.textBox_h_SrednHeftTolshPlasta_Neft.Name = "textBox_h_SrednHeftTolshPlasta_Neft";
+            this.textBox_h_SrednHeftTolshPlasta_Neft.Size = new System.Drawing.Size(82, 22);
+            this.textBox_h_SrednHeftTolshPlasta_Neft.TabIndex = 25;
+            // 
+            // textBox_N_CenaDel
+            // 
+            this.textBox_N_CenaDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_N_CenaDel.Location = new System.Drawing.Point(553, 107);
+            this.textBox_N_CenaDel.Name = "textBox_N_CenaDel";
+            this.textBox_N_CenaDel.Size = new System.Drawing.Size(82, 22);
+            this.textBox_N_CenaDel.TabIndex = 24;
+            // 
+            // textBox_n_F_ChisloLinii
+            // 
+            this.textBox_n_F_ChisloLinii.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_n_F_ChisloLinii.Location = new System.Drawing.Point(553, 42);
+            this.textBox_n_F_ChisloLinii.Name = "textBox_n_F_ChisloLinii";
+            this.textBox_n_F_ChisloLinii.Size = new System.Drawing.Size(82, 22);
+            this.textBox_n_F_ChisloLinii.TabIndex = 23;
+            // 
+            // label_ObKoffNeftPriPlastYsl
+            // 
+            this.label_ObKoffNeftPriPlastYsl.AutoSize = true;
+            this.label_ObKoffNeftPriPlastYsl.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_ObKoffNeftPriPlastYsl.Location = new System.Drawing.Point(10, 287);
+            this.label_ObKoffNeftPriPlastYsl.Name = "label_ObKoffNeftPriPlastYsl";
+            this.label_ObKoffNeftPriPlastYsl.Size = new System.Drawing.Size(522, 24);
+            this.label_ObKoffNeftPriPlastYsl.TabIndex = 6;
+            this.label_ObKoffNeftPriPlastYsl.Text = "Объемный коэффициент нефти при пластовых условиях";
+            // 
+            // label_PlotnostHeftiInPlasYslovia
+            // 
+            this.label_PlotnostHeftiInPlasYslovia.AutoSize = true;
+            this.label_PlotnostHeftiInPlasYslovia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_PlotnostHeftiInPlasYslovia.Location = new System.Drawing.Point(10, 260);
+            this.label_PlotnostHeftiInPlasYslovia.Name = "label_PlotnostHeftiInPlasYslovia";
+            this.label_PlotnostHeftiInPlasYslovia.Size = new System.Drawing.Size(373, 24);
+            this.label_PlotnostHeftiInPlasYslovia.TabIndex = 5;
+            this.label_PlotnostHeftiInPlasYslovia.Text = "Плотность нефти в пластовых условиях";
+            // 
+            // label_SrHeftPlasta
+            // 
+            this.label_SrHeftPlasta.AutoSize = true;
+            this.label_SrHeftPlasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_SrHeftPlasta.Location = new System.Drawing.Point(10, 228);
+            this.label_SrHeftPlasta.Name = "label_SrHeftPlasta";
+            this.label_SrHeftPlasta.Size = new System.Drawing.Size(348, 24);
+            this.label_SrHeftPlasta.TabIndex = 4;
+            this.label_SrHeftPlasta.Text = "Средняя нефтенасыщенность пласта";
+            // 
+            // labelSrKoffOtkrPoristHeftPorod_1
+            // 
+            this.labelSrKoffOtkrPoristHeftPorod_1.AutoSize = true;
+            this.labelSrKoffOtkrPoristHeftPorod_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelSrKoffOtkrPoristHeftPorod_1.Location = new System.Drawing.Point(10, 180);
+            this.labelSrKoffOtkrPoristHeftPorod_1.Name = "labelSrKoffOtkrPoristHeftPorod_1";
+            this.labelSrKoffOtkrPoristHeftPorod_1.Size = new System.Drawing.Size(420, 24);
+            this.labelSrKoffOtkrPoristHeftPorod_1.TabIndex = 3;
+            this.labelSrKoffOtkrPoristHeftPorod_1.Text = "Cредний коэффициент открытой пористости";
+            // 
+            // label_SrednHeftTolshPlasta
+            // 
+            this.label_SrednHeftTolshPlasta.AutoSize = true;
+            this.label_SrednHeftTolshPlasta.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_SrednHeftTolshPlasta.Location = new System.Drawing.Point(10, 147);
+            this.label_SrednHeftTolshPlasta.Name = "label_SrednHeftTolshPlasta";
+            this.label_SrednHeftTolshPlasta.Size = new System.Drawing.Size(407, 24);
+            this.label_SrednHeftTolshPlasta.TabIndex = 2;
+            this.label_SrednHeftTolshPlasta.Text = "Средняя нефтенасыщенная толщина пласта";
+            // 
+            // label_CenaDel_1
+            // 
+            this.label_CenaDel_1.AutoSize = true;
+            this.label_CenaDel_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_CenaDel_1.Location = new System.Drawing.Point(11, 95);
+            this.label_CenaDel_1.Name = "label_CenaDel_1";
+            this.label_CenaDel_1.Size = new System.Drawing.Size(332, 24);
+            this.label_CenaDel_1.TabIndex = 1;
+            this.label_CenaDel_1.Text = "Цена деления планиметра с учётом\r\n";
+            // 
+            // label_ChisloLinii_1
+            // 
+            this.label_ChisloLinii_1.AutoSize = true;
+            this.label_ChisloLinii_1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label_ChisloLinii_1.Location = new System.Drawing.Point(10, 23);
+            this.label_ChisloLinii_1.Name = "label_ChisloLinii_1";
+            this.label_ChisloLinii_1.Size = new System.Drawing.Size(372, 24);
+            this.label_ChisloLinii_1.TabIndex = 0;
+            this.label_ChisloLinii_1.Text = "Число деленийпланиметра вдоль линии";
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -1311,10 +1401,6 @@ namespace EnergyLite
             this.panelQuestion.PerformLayout();
             this.panelInput.ResumeLayout(false);
             this.panelInput.PerformLayout();
-            this.groupBoxNeft_Debit.ResumeLayout(false);
-            this.groupBoxNeft_Debit.PerformLayout();
-            this.groupBoxNeft_Volume.ResumeLayout(false);
-            this.groupBoxNeft_Volume.PerformLayout();
             this.groupBoxGas_Volume.ResumeLayout(false);
             this.groupBoxGas_Volume.PerformLayout();
             this.groupBoxGas_Debit.ResumeLayout(false);
@@ -1327,6 +1413,10 @@ namespace EnergyLite
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOilDebit)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGasReserves)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGasDebit)).EndInit();
+            this.groupBoxNeft_Debit.ResumeLayout(false);
+            this.groupBoxNeft_Debit.PerformLayout();
+            this.groupBoxNeft_Volume.ResumeLayout(false);
+            this.groupBoxNeft_Volume.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -1360,12 +1450,12 @@ namespace EnergyLite
         private System.Windows.Forms.Label labelMpa3_Gas;
         private System.Windows.Forms.Label labelm4_Gas;
         private System.Windows.Forms.TextBox textBox_z_KofSverhSgim_Volume;
-        private System.Windows.Forms.TextBox textBox_T_p_PlastovaTemp;
+        private System.Windows.Forms.TextBox textBox_T_p_PlastovaTemp_Gas_Volume;
         private System.Windows.Forms.TextBox textBox_P_pl_PlastovoeDavlenie_Volume;
         private System.Windows.Forms.TextBox textBox_S_g_SredGasPlast;
         private System.Windows.Forms.TextBox textBox_V_g_BalansZapasGas;
         private System.Windows.Forms.Label label_KofSverhSgimRealGas_Voiume;
-        private System.Windows.Forms.Label label_PlastTemp;
+        private System.Windows.Forms.Label label_PlastTemp_Gas_Volume;
         private System.Windows.Forms.Label label_PlastovoeDav_Volume;
         private System.Windows.Forms.Label label_SrednaGasPlasta;
         private System.Windows.Forms.Label label_BalansZapas_Gas;
@@ -1396,7 +1486,19 @@ namespace EnergyLite
         private System.Windows.Forms.Label label_BaskostiGasa;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label_KofPronic;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox_F_Gasonostnosti_Gas_Volume;
+        private System.Windows.Forms.Label labelF_SGasonostnosti_Gas_volume;
+        private System.Windows.Forms.Label labelm6_Gas;
+        private System.Windows.Forms.Label labelm5_Gas;
+        private System.Windows.Forms.TextBox textBox_m_Gas_Volume;
+        private System.Windows.Forms.TextBox textBox_h_Gas_Volume;
+        private System.Windows.Forms.Label labelSrKofOtkrPoristostiGasPorod;
+        private System.Windows.Forms.Label labelSrGasonasTolshPlasta;
         private System.Windows.Forms.GroupBox groupBoxNeft_Debit;
+        private System.Windows.Forms.Label labelMpa_Debit_neft;
+        private System.Windows.Forms.TextBox textBoxEbanayaDepressia_Neft;
+        private System.Windows.Forms.Label label_EbanayaDepressia_Neft;
         private System.Windows.Forms.Label labelm3_Neft;
         private System.Windows.Forms.Label labelm2_Neft;
         private System.Windows.Forms.Label labelMpa_Neft;
@@ -1436,10 +1538,6 @@ namespace EnergyLite
         private System.Windows.Forms.Label label_SrednHeftTolshPlasta;
         private System.Windows.Forms.Label label_CenaDel_1;
         private System.Windows.Forms.Label label_ChisloLinii_1;
-        private System.Windows.Forms.TextBox textBoxEbanayaDepressia_Neft;
-        private System.Windows.Forms.Label label_EbanayaDepressia_Neft;
-        private System.Windows.Forms.Label labelMpa_Debit_neft;
-        private System.Windows.Forms.Label label3;
     }
 }
 
