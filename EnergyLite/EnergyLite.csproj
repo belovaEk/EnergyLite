@@ -88,5 +88,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\EnergyLite.Lib\EnergyLite.Lib.csproj">
+      <Project>{e137ab65-738a-43db-904e-c20d04a8eb64}</Project>
+      <Name>EnergyLite.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

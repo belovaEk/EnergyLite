@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+using EnergyLite.Lib;
+
 namespace EnergyLite
 {
     public partial class FormMain : Form
@@ -16,6 +18,8 @@ namespace EnergyLite
         {
             InitializeComponent();
         }
+
+        DataService ds = new DataService();
 
         private void textBoxQuestion_Enter(object sender, EventArgs e)
         {
@@ -91,6 +95,36 @@ namespace EnergyLite
             }
         }
 
- 
+        private void buttonDo_Click(object sender, EventArgs e)
+        {
+            /*
+            double n_f = Convert.ToDouble(textBox_n_F_ChisloLinii.Text);
+            double N = Convert.ToDouble(textBox_N_CenaDel.Text);
+            double h_Volume = Convert.ToDouble(textBox_h_SrednHeftTolshPlasta_Neft.Text);
+            double m = Convert.ToDouble(textBox_m_SrKoffOtkrPoristHeftPorod.Text);
+            double S_n = Convert.ToDouble(textBox_S_n_SrHeftPlasta.Text);
+            double p_h = Convert.ToDouble(textBox_p_n_PlotnostHeftiInPlasYslovia.Text);
+            double b_n_Volume = Convert.ToDouble(textBox_b_n_ObKoffNeftPriPlastYsl_Volume.Text);
+            double Q_n = ds.Neft_Volume(n_f, N, h_Volume, m, S_n, p_h, b_n_Volume);
+
+            textBox_Res_Volume.Text = Convert.ToString(Q_n);
+            textBox_Res_Volume.Enabled = true;
+            */
+           
+
+            double k = Convert.ToDouble(textBox_k_kofPonicaemosti_Neft.Text);
+            double h_Debit = Convert.ToDouble(textBox_h_EffectivNeftTolshinaPlasta.Text);
+            double m_n = Convert.ToDouble(textBox_μ_n_VaskostNefti.Text);
+            double b_n_Debit = Convert.ToDouble(textBox_b_nObKoffNefti_Debit.Text);
+            double R = Convert.ToDouble(textBox_R_RadiusZonDrenirovania_Neft.Text);
+            double r_c = Convert.ToDouble(textBox_r_c_RadiusSkvagina_Neft.Text);
+            double dep = Convert.ToDouble(textBoxEbanayaDepressia_Neft.Text);
+            double q_g = ds.Neft_Debit(k, h_Debit, m_n, b_n_Debit, R, r_c, dep);
+
+            textBox_Res_Debit.Text = Convert.ToString(q_g);
+            textBox_Res_Debit.Enabled = true;
+        }
+
+      
     }
 }
