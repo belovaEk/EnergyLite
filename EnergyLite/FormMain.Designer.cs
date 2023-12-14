@@ -102,6 +102,7 @@ namespace EnergyLite
             this.label_KofPronic = new System.Windows.Forms.Label();
             this.textBoxInput_Heading = new System.Windows.Forms.TextBox();
             this.panelResult = new System.Windows.Forms.Panel();
+            this.buttonDo = new System.Windows.Forms.Button();
             this.textBox_Res_Volume = new System.Windows.Forms.TextBox();
             this.label_Volume = new System.Windows.Forms.Label();
             this.textBox_Res_Debit = new System.Windows.Forms.TextBox();
@@ -109,7 +110,10 @@ namespace EnergyLite
             this.textBox_Result_Heading = new System.Windows.Forms.TextBox();
             this.panelFormula = new System.Windows.Forms.Panel();
             this.textBox_Formul_Heading = new System.Windows.Forms.TextBox();
-            this.buttonDo = new System.Windows.Forms.Button();
+            this.pictureBoxGasDebit = new System.Windows.Forms.PictureBox();
+            this.pictureBoxGasReserves = new System.Windows.Forms.PictureBox();
+            this.pictureBoxOilDebit = new System.Windows.Forms.PictureBox();
+            this.pictureBoxOilReserves = new System.Windows.Forms.PictureBox();
             this.panelQuestion.SuspendLayout();
             this.panelInput.SuspendLayout();
             this.groupBoxNeft_Debit.SuspendLayout();
@@ -118,6 +122,10 @@ namespace EnergyLite
             this.groupBoxGas_Debit.SuspendLayout();
             this.panelResult.SuspendLayout();
             this.panelFormula.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGasDebit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGasReserves)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOilDebit)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOilReserves)).BeginInit();
             this.SuspendLayout();
             // 
             // panelQuestion
@@ -169,12 +177,12 @@ namespace EnergyLite
             // 
             this.textBoxQuestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
             this.textBoxQuestion.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxQuestion.Font = new System.Drawing.Font("Freestyle Script", 16.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxQuestion.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textBoxQuestion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(34)))), ((int)(((byte)(46)))));
             this.textBoxQuestion.Location = new System.Drawing.Point(368, 12);
             this.textBoxQuestion.Name = "textBoxQuestion";
             this.textBoxQuestion.ReadOnly = true;
-            this.textBoxQuestion.Size = new System.Drawing.Size(506, 33);
+            this.textBoxQuestion.Size = new System.Drawing.Size(506, 32);
             this.textBoxQuestion.TabIndex = 0;
             this.textBoxQuestion.Text = "Для чего производится расчёт?";
             this.textBoxQuestion.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -871,6 +879,18 @@ namespace EnergyLite
             this.panelResult.Size = new System.Drawing.Size(474, 284);
             this.panelResult.TabIndex = 2;
             // 
+            // buttonDo
+            // 
+            this.buttonDo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.buttonDo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonDo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(58)))), ((int)(((byte)(90)))));
+            this.buttonDo.Location = new System.Drawing.Point(150, 212);
+            this.buttonDo.Name = "buttonDo";
+            this.buttonDo.Size = new System.Drawing.Size(177, 54);
+            this.buttonDo.TabIndex = 27;
+            this.buttonDo.Text = "Рассчёт";
+            this.buttonDo.UseVisualStyleBackColor = false;
+            // 
             // textBox_Res_Volume
             // 
             this.textBox_Res_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
@@ -928,6 +948,10 @@ namespace EnergyLite
             // panelFormula
             // 
             this.panelFormula.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(58)))), ((int)(((byte)(90)))));
+            this.panelFormula.Controls.Add(this.pictureBoxOilReserves);
+            this.panelFormula.Controls.Add(this.pictureBoxOilDebit);
+            this.panelFormula.Controls.Add(this.pictureBoxGasReserves);
+            this.panelFormula.Controls.Add(this.pictureBoxGasDebit);
             this.panelFormula.Controls.Add(this.textBox_Formul_Heading);
             this.panelFormula.Location = new System.Drawing.Point(786, 449);
             this.panelFormula.Name = "panelFormula";
@@ -946,17 +970,49 @@ namespace EnergyLite
             this.textBox_Formul_Heading.TabIndex = 2;
             this.textBox_Formul_Heading.Text = "Используемые формулы:";
             // 
-            // buttonDo
+            // pictureBoxGasDebit
             // 
-            this.buttonDo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.buttonDo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonDo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(58)))), ((int)(((byte)(90)))));
-            this.buttonDo.Location = new System.Drawing.Point(150, 212);
-            this.buttonDo.Name = "buttonDo";
-            this.buttonDo.Size = new System.Drawing.Size(177, 54);
-            this.buttonDo.TabIndex = 27;
-            this.buttonDo.Text = "Рассчёт";
-            this.buttonDo.UseVisualStyleBackColor = false;
+            this.pictureBoxGasDebit.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxGasDebit.Image")));
+            this.pictureBoxGasDebit.Location = new System.Drawing.Point(56, 60);
+            this.pictureBoxGasDebit.Name = "pictureBoxGasDebit";
+            this.pictureBoxGasDebit.Size = new System.Drawing.Size(348, 118);
+            this.pictureBoxGasDebit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxGasDebit.TabIndex = 3;
+            this.pictureBoxGasDebit.TabStop = false;
+            this.pictureBoxGasDebit.Visible = false;
+            // 
+            // pictureBoxGasReserves
+            // 
+            this.pictureBoxGasReserves.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxGasReserves.Image")));
+            this.pictureBoxGasReserves.Location = new System.Drawing.Point(56, 188);
+            this.pictureBoxGasReserves.Name = "pictureBoxGasReserves";
+            this.pictureBoxGasReserves.Size = new System.Drawing.Size(348, 118);
+            this.pictureBoxGasReserves.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxGasReserves.TabIndex = 4;
+            this.pictureBoxGasReserves.TabStop = false;
+            this.pictureBoxGasReserves.Visible = false;
+            // 
+            // pictureBoxOilDebit
+            // 
+            this.pictureBoxOilDebit.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxOilDebit.Image")));
+            this.pictureBoxOilDebit.Location = new System.Drawing.Point(56, 62);
+            this.pictureBoxOilDebit.Name = "pictureBoxOilDebit";
+            this.pictureBoxOilDebit.Size = new System.Drawing.Size(348, 120);
+            this.pictureBoxOilDebit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxOilDebit.TabIndex = 5;
+            this.pictureBoxOilDebit.TabStop = false;
+            this.pictureBoxOilDebit.Visible = false;
+            // 
+            // pictureBoxOilReserves
+            // 
+            this.pictureBoxOilReserves.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxOilReserves.Image")));
+            this.pictureBoxOilReserves.Location = new System.Drawing.Point(56, 197);
+            this.pictureBoxOilReserves.Name = "pictureBoxOilReserves";
+            this.pictureBoxOilReserves.Size = new System.Drawing.Size(348, 100);
+            this.pictureBoxOilReserves.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxOilReserves.TabIndex = 6;
+            this.pictureBoxOilReserves.TabStop = false;
+            this.pictureBoxOilReserves.Visible = false;
             // 
             // FormMain
             // 
@@ -988,6 +1044,10 @@ namespace EnergyLite
             this.panelResult.PerformLayout();
             this.panelFormula.ResumeLayout(false);
             this.panelFormula.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGasDebit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxGasReserves)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOilDebit)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOilReserves)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1074,6 +1134,10 @@ namespace EnergyLite
         private System.Windows.Forms.Label label_CenaDel_1;
         private System.Windows.Forms.Label label_ChisloLinii_1;
         private System.Windows.Forms.Button buttonDo;
+        private System.Windows.Forms.PictureBox pictureBoxOilReserves;
+        private System.Windows.Forms.PictureBox pictureBoxOilDebit;
+        private System.Windows.Forms.PictureBox pictureBoxGasReserves;
+        private System.Windows.Forms.PictureBox pictureBoxGasDebit;
     }
 }
 
