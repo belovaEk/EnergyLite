@@ -277,6 +277,8 @@ namespace EnergyLite
             // buttonDo
             // 
             this.buttonDo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.buttonDo.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.buttonDo.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Black;
             this.buttonDo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.buttonDo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(58)))), ((int)(((byte)(90)))));
             this.buttonDo.Location = new System.Drawing.Point(150, 212);
@@ -289,6 +291,7 @@ namespace EnergyLite
             // textBox_Res_Volume
             // 
             this.textBox_Res_Volume.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_Res_Volume.Enabled = false;
             this.textBox_Res_Volume.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox_Res_Volume.Location = new System.Drawing.Point(320, 149);
             this.textBox_Res_Volume.Name = "textBox_Res_Volume";
@@ -310,6 +313,7 @@ namespace EnergyLite
             // textBox_Res_Debit
             // 
             this.textBox_Res_Debit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.textBox_Res_Debit.Enabled = false;
             this.textBox_Res_Debit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.textBox_Res_Debit.Location = new System.Drawing.Point(320, 87);
             this.textBox_Res_Debit.Name = "textBox_Res_Debit";
