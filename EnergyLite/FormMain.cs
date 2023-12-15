@@ -208,7 +208,7 @@ namespace EnergyLite
                         double debit_Gas = ds.CalcGasDebit(k_Gas_Debit, h_Gas_Debit, m_gas, T_plast, z, R_dren, r_skvajina, P_plast, P_depressia);
 
                         textBox_Res_Debit.Text = Convert.ToString(debit_Gas);
-                        textBox_Res_Volume.Enabled = true;
+                        textBox_Res_Debit.Enabled = true;
                     }
                     catch
                     {

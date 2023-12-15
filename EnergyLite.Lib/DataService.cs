@@ -38,7 +38,7 @@ namespace EnergyLite.Lib
             // Дебит газа
             double debit_Gas = K_prod * delta_P_square;
 
-            return debit_Gas;
+            return Math.Round(debit_Gas, 3);
         }
 
         public double Gas_Volume(double F, double h, double m, double S_g, double P_plast, double T_plast, double z)
