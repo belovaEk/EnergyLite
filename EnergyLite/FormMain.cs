@@ -30,12 +30,6 @@ namespace EnergyLite
                 labelZapasiTonns.Visible = false;
                 labelZapasiM3.Visible = true;
 
-                pictureBoxGasDebit.Visible = true;
-                pictureBoxGasReserves.Visible = true;
-
-                pictureBoxOilReserves.Visible = false;
-                pictureBoxOilDebit.Visible = false;
-
                 groupBoxGas_Debit.Visible = true;
                 groupBoxGas_Volume.Visible = true;
 
@@ -51,13 +45,6 @@ namespace EnergyLite
 
                 groupBoxGas_Debit.Visible = false;
                 groupBoxGas_Volume.Visible = false;
-
-                pictureBoxGasReserves.Visible = false;
-                pictureBoxGasDebit.Visible = false;
-
-
-                pictureBoxOilReserves.Visible = true;
-                pictureBoxOilDebit.Visible = true;
 
                 groupBoxNeft_Debit.Visible = true;
                 groupBoxNeft_Volume.Visible = true;
@@ -130,6 +117,12 @@ namespace EnergyLite
 
                         textBox_Res_Volume.Text = Convert.ToString(Q_n);
                         textBox_Res_Volume.Enabled = true;
+
+                        pictureBoxGasReserves.Visible = false;
+                        pictureBoxGasDebit.Visible = false;
+
+                        pictureBoxOilReserves.Visible = true;
+                        pictureBoxOilDebit.Visible = true;
                     }
                     catch
                     {
@@ -154,6 +147,12 @@ namespace EnergyLite
 
                         textBox_Res_Debit.Text = Convert.ToString(q_g);
                         textBox_Res_Debit.Enabled = true;
+
+                        pictureBoxGasReserves.Visible = false;
+                        pictureBoxGasDebit.Visible = false;
+
+                        pictureBoxOilReserves.Visible = true;
+                        pictureBoxOilDebit.Visible = true;
                     }
                     catch
                     {
@@ -182,6 +181,12 @@ namespace EnergyLite
 
                         textBox_Res_Volume.Text = Convert.ToString(V_g);
                         textBox_Res_Volume.Enabled = true;
+
+                        pictureBoxGasDebit.Visible = true;
+                        pictureBoxGasReserves.Visible = true;
+
+                        pictureBoxOilReserves.Visible = false;
+                        pictureBoxOilDebit.Visible = false;
                     }
                     catch
                     {
@@ -209,6 +214,12 @@ namespace EnergyLite
 
                         textBox_Res_Debit.Text = Convert.ToString(debit_Gas);
                         textBox_Res_Debit.Enabled = true;
+
+                        pictureBoxGasDebit.Visible = true;
+                        pictureBoxGasReserves.Visible = true;
+
+                        pictureBoxOilReserves.Visible = false;
+                        pictureBoxOilDebit.Visible = false;
                     }
                     catch
                     {
