@@ -142,7 +142,7 @@ namespace EnergyLite
                         double b_n_Debit = Convert.ToDouble(textBox_b_nObKoffNefti_Debit.Text);
                         double R = Convert.ToDouble(textBox_R_RadiusZonDrenirovania_Neft.Text);
                         double r_c = Convert.ToDouble(textBox_r_c_RadiusSkvagina_Neft.Text);
-                        double dep = Convert.ToDouble(textBoxEbanayaDepressia_Neft.Text);
+                        double dep = Convert.ToDouble(textBoxDepressia_Neft.Text);
                         double q_g = ds.Neft_Debit(k, h_Debit, m_n, b_n_Debit, R, r_c, dep);
 
                         textBox_Res_Debit.Text = Convert.ToString(q_g);
@@ -228,10 +228,9 @@ namespace EnergyLite
                 }
             }
         }
-
         private void buttonClear_Click(object sender, EventArgs e)
         {
-            textBoxEbanayaDepressia_Neft.Clear();
+            textBoxDepressia_Neft.Clear();
             textBox_b_nObKoffNefti_Debit.Clear();
             textBox_b_n_ObKoffNeftPriPlastYsl_Volume.Clear();
             textBox_Depressia_Gas.Clear();
